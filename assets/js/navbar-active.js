@@ -1,5 +1,5 @@
-$( '#topheader .navbar-nav a' ).on( 'click', function () {
-  $( this ).removeClass( 'active' );
-  $( this ).addClass( 'active' );
-});
-
+$(document).ready(function() {
+  // get current URL path and assign 'active' class
+  var pathname = window.location.pathname;
+  $('.navbar-nav > li > a[href="'+pathname+'"]').addClass('active');
+})

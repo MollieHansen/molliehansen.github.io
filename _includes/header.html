@@ -5,14 +5,26 @@
       <span class="navbar-toggler-icon"></span>
     </button>
     <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
-      <div class="navbar-nav" id="navbarItems">
-        <a class="nav-item nav-link nav-item-text" href="{{ site.baseurl }}{% link index.html %}">Home</a>
-        <a class="nav-item nav-link nav-item-text" href="{{ site.baseurl }}{% link portfolio.html %}">Portfolio</a>
-        <a class="nav-item nav-link nav-item-text" href="{{ site.baseurl }}{% link artistStatement.html %}">Artist Statement</a>
-        <a class="nav-item nav-link nav-item-text" href="{{ site.baseurl }}">Resume</a>
-        <a class="nav-item nav-link nav-item-text" href="{{ site.baseurl }}{% link bio.html %}">Bio</a>
-        <a class="nav-item nav-link nav-item-text" href="{{ site.baseurl }}">Contact</a>
-      </div>
+      <ul class="navbar-nav" id="navbarItems">
+        <li class="nav-item primary">
+            <a class="nav-link" href="{{ site.baseurl }}{% link index.html %}">Home</a>
+        </li>
+        <li class="nav-item primary">
+            <a class="nav-link" href="{{ site.baseurl }}{% link portfolio.html %}">Portfolio</a>
+        </li>
+        <li class="nav-item primary">
+            <a class="nav-link" href="{{ site.baseurl }}{% link artistStatement.html %}">Artist Statement</a>
+        </li>
+        <li class="nav-item primary">
+            <a class="nav-link" href="{{ site.baseurl }}{% link resume.html %}">Resume</a>
+        </li>
+        <li class="nav-item primary">
+            <a class="nav-link" href="{{ site.baseurl }}{% link bio.html %}">Bio</a>
+        </li>
+        <li class="nav-item primary">
+            <a class="nav-link" href="{{ site.baseurl }}{% link contact.html %}">Contact</a>
+        </li>
+      </ul>
     </div>
   </nav>
 </header>
