@@ -1,6 +1,463 @@
 ---
-layout: default
+layout: photos
 ---
 
 <div class="container">
+  <div class="row row-header">
+    <div class="col-12 mx-auto">
+      <h1>Portfolio</h1>
+    </div>
+  </div>
+  
+  <ul class="nav nav-pills justify-content-left secondary-nav" id="myTab" role="tablist">
+    <li class="nav-item secondary">
+      <a class="nav-tab-link-secondary active" href="#production" id="production-tab" data-toggle="pill" role="tab" aria-controls="production">Production</a>
+    </li>
+    <li class="nav-item secondary">
+      <a class="nav-tab-link-secondary" href="#memorylens" id="memorylens-tab" data-toggle="pill" role="tab" aria-controls="memorylens">Memory Lens</a>
+    </li>
+    <li class="nav-item secondary">
+      <a class="nav-tab-link-secondary" href="#tablesettings" id="tablesettings-tab" data-toggle="pill" role="tab" aria-controls="tablesettings">Table Settings</a>
+    </li>
+    <li class="nav-item secondary">
+      <a class="nav-tab-link-secondary" href="#bubblescape" id="bubblescape-tab" data-toggle="pill" role="tab" aria-controls="bubblescape">Bubblescape</a>
+    </li>
+    <li class="nav-item secondary">
+      <a class="nav-tab-link-secondary" href="#horns" id="horns-tab" data-toggle="pill" role="tab" aria-controls="horns">Horns</a>
+    </li>
+  </ul>
+  
+  <div class="tab-content" id="nav-tabContent">
+    <div class="tab-pane fade show active" id="production" role="tabpanel" aria-labelledby="production-tab">
+      <div id="production-list">
+        <ul class="nav nav-pills justify-content-around bg-customdark" id="production-list" role="tablist">
+          <li class="nav-item tertiary">
+            <a class="nav-tab-link-tertiary active" href="#cups" id="cups-tab" data-toggle="pill" role="tab" aria-controls="cups">Cups</a>
+          </li>
+          <li class="nav-item tertiary">
+            <a class="nav-tab-link-tertiary" href="#vases" id="vases-tab" data-toggle="pill" role="tab" aria-controls="vases">Vases</a>
+          </li>
+          <li class="nav-item tertiary">
+            <a class="nav-tab-link-tertiary" href="#plates" id="plates-tab" data-toggle="pill" role="tab" aria-controls="plates">Plates</a>
+          </li>
+          <li class="nav-item tertiary">
+            <a class="nav-tab-link-tertiary" href="#bowls" id="bowls-tab" data-toggle="pill" role="tab" aria-controls="bowls">Bowls</a>
+          </li>
+          <li class="nav-item tertiary">
+            <a class="nav-tab-link-tertiary" href="#flowers" id="flowers-tab" data-toggle="pill" role="tab" aria-controls="flowers">Flowers</a>
+          </li>
+          <li class="nav-item tertiary">
+            <a class="nav-tab-link-tertiary" href="#jewelry" id="jewelry-tab" data-toggle="pill" role="tab" aria-controls="jewelry">Jewelry</a>
+          </li>
+          <li class="nav-item tertiary">
+            <a class="nav-tab-link-tertiary" href="#custom" id="custom-tab" data-toggle="pill" role="tab" aria-controls="custom">Custom Orders</a>
+          </li>
+        </ul>
+      </div>
+  
+      <div class="container pt-2">
+        <div class="tab-content">
+          <div class="tab-pane fade show active" id="cups" role="tabpanel" aria-labelledby="cups-tab">
+            <h3>Cups</h3>
+            <div class="flex-left-align-last pt-2">
+              <img src="assets/portfolio/cups/01-gold-cup.jpg" class="fitted-square" alt="Gold cups"/>
+              <img src="assets/portfolio/cups/02-black-gold-cup.jpg" class="fitted-square" alt="Black and gold cup"/>
+              <img src="assets/portfolio/cups/03-blue-cup.jpg" class="fitted-square" alt="Blue cup"/>
+              <img src="assets/portfolio/cups/04-white-cup.jpg" class="fitted-square" alt="White cup"/>
+              <img src="assets/portfolio/cups/05-white2-cups.jpg" class="fitted-square" alt="White cups"/>
+              <img src="assets/portfolio/cups/06-shadow-cup.jpg" class="fitted-square" alt="Clear cup"/>
+              <img src="assets/portfolio/cups/07-shadow-water-cup.jpg" class="fitted-square" alt="Water and clear cup"/>
+            </div>
+          </div>
+          <div class="tab-pane fade" id="vases" role="tabpanel" aria-labelledby="vases-tab">
+            <h3>Vases</h3>
+            <div class="flex-left-align-last pt-2">
+              <img src="assets/portfolio/vases/01-vase.jpg" class="fitted-square" data-toggle="modal" data-target="#lightboxModal"/>
+              <img src="assets/portfolio/vases/02-vase.jpg" class="fitted-square"/>
+              <img src="assets/portfolio/vases/03-vase.jpg" class="fitted-square"/>
+              <img src="assets/portfolio/vases/04-vase.jpg" class="fitted-square"/>
+              <img src="assets/portfolio/vases/05-vase.jpg" class="fitted-square"/>
+              <img src="assets/portfolio/vases/06-vase.jpg" class="fitted-square"/>
+              <img src="assets/portfolio/vases/07-vase.jpg" class="fitted-square"/>
+            </div>
+          </div>
+          <div class="tab-pane fade" id="plates" role="tabpanel" aria-labelledby="plates-tab">
+            <h3>Plates</h3>
+            <div class="flex-left-align-last pt-2">
+              <img src="assets/portfolio/plates/01-plate.jpg" class="fitted-square"/>
+              <img src="assets/portfolio/plates/02-plate.jpg" class="fitted-square"/>
+            </div>
+          </div>
+          <div class="tab-pane fade" id="bowls" role="tabpanel" aria-labelledby="bowls-tab">
+            <h3>Bowls</h3>
+            <div class="flex-left-align-last pt-2">
+              <img src="assets/portfolio/bowls/01-bowl.jpg" class="fitted-square"/>
+            </div>
+          </div>
+          <div class="tab-pane fade" id="flowers" role="tabpanel" aria-labelledby="flowers-tab">
+            <h3>Bowls</h3>
+            <div class="flex-left-align-last pt-2">
+              <img src="assets/portfolio/flowers/01-flower.jpg" class="fitted-square"/>
+              <img src="assets/portfolio/flowers/02-flower.jpg" class="fitted-square"/>
+              <img src="assets/portfolio/flowers/03-flower.jpg" class="fitted-square"/>
+            </div>
+          </div>
+          <div class="tab-pane fade" id="jewelry" role="tabpanel" aria-labelledby="jewelry-tab">
+            <h3>Jewelry</h3>
+            <div class="flex-left-align-last pt-2">
+              <img src="assets/portfolio/jewelry/01-jewelry.jpg" class="fitted-square"/>
+              <img src="assets/portfolio/jewelry/02-jewelry.jpg" class="fitted-square"/>
+              <img src="assets/portfolio/jewelry/03-jewelry.jpg" class="fitted-square"/>
+              <img src="assets/portfolio/jewelry/04-jewelry.jpg" class="fitted-square"/>
+              <img src="assets/portfolio/jewelry/05-jewelry.jpg" class="fitted-square"/>
+              <img src="assets/portfolio/jewelry/06-jewelry.jpg" class="fitted-square"/>
+            </div>
+          </div>
+          <div class="tab-pane fade" id="custom" role="tabpanel" aria-labelledby="custom-tab">
+            <h3>Custom Orders</h3>
+          </div>
+        </div>
+      </div>
+    </div>
+    
+    <div class="tab-pane fade" id="memorylens" role="tabpanel" aria-labelledby="memorylens-tab">
+      <div id="memorylens-list">
+        <ul class="nav nav-pills justify-content-around bg-customdark" id="memorylens-list" role="tablist">
+          <li class="nav-item tertiary">
+            <a class="nav-tab-link-tertiary active" href="#orbs" id="orbs-tab" data-toggle="pill" role="tab" aria-controls="orbs">Orbs</a>
+          </li>
+          <li class="nav-item tertiary">
+            <a class="nav-tab-link-tertiary" href="#saltboxes" id="saltboxes-tab" data-toggle="pill" role="tab" aria-controls="saltboxes">Salt Boxes</a>
+          </li>
+        </ul>
+      </div>
+  
+      <div class="container pt-2">
+        <div class="tab-content">
+          <div class="tab-pane fade show active" id="orbs" role="tabpanel" aria-labelledby="orbs-tab">
+            <h3>Orbs</h3>
+            <div class="flex-left-align-last pt-2">
+            </div>
+          </div>
+          <div class="tab-pane fade" id="saltboxes" role="tabpanel" aria-labelledby="saltboxes-tab">
+            <h3>Salt Boxes</h3>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <div class="tab-pane fade" id="tablesettings" role="tabpanel" aria-labelledby="tablesettings-tab">
+      <div id="tablesettings-list">
+        <ul class="nav nav-pills justify-content-around bg-customdark" id="tablesettings-list" role="tablist">
+          <li class="nav-item tertiary">
+            <a class="nav-tab-link-tertiary active" href="#itriedtofixit" id="itriedtofixit-tab" data-toggle="pill" role="tab" aria-controls="itriedtofixit">I Tried to Fix It</a>
+          </li>
+          <li class="nav-item tertiary">
+            <a class="nav-tab-link-tertiary" href="#lonelunch" id="lonelunch-tab" data-toggle="pill" role="tab" aria-controls="lonelunch">Lone Lunch</a>
+          </li>
+          <li class="nav-item tertiary">
+            <a class="nav-tab-link-tertiary" href="#teatimepast" id="teatimepast-tab" data-toggle="pill" role="tab" aria-controls="teatimepast">Tea Time Past</a>
+          </li>
+          <li class="nav-item tertiary">
+            <a class="nav-tab-link-tertiary" href="#breakfastmeditation" id="breakfastmeditation-tab" data-toggle="pill" role="tab" aria-controls="breakfastmeditation">Breakfast Meditation</a>
+          </li>
+          <li class="nav-item tertiary">
+            <a class="nav-tab-link-tertiary" href="#leftbehind" id="leftbehind-tab" data-toggle="pill" role="tab" aria-controls="leftbehind">Left Behind</a>
+          </li>
+        </ul>
+      </div>
+  
+      <div class="container pt-2">
+        <div class="tab-content">
+          <div class="tab-pane fade show active" id="itriedtofixit" role="tabpanel" aria-labelledby="itriedtofixit-tab">
+            <h3>I Tried to Fix It</h3>
+            <div class="flex-left-align-last pt-2">
+            </div>
+          </div>
+          <div class="tab-pane fade" id="lonelunch" role="tabpanel" aria-labelledby="lonelunch-tab">
+            <h3>Lone Lunch</h3>
+          </div>
+          <div class="tab-pane fade" id="teatimepast" role="tabpanel" aria-labelledby="teatimepast-tab">
+            <h3>Tea Time Past</h3>
+          </div>
+          <div class="tab-pane fade" id="breakfastmeditation" role="tabpanel" aria-labelledby="breakfastmeditation-tab">
+            <h3>Breakfast Meditation</h3>
+          </div>
+          <div class="tab-pane fade" id="leftbehind" role="tabpanel" aria-labelledby="leftbehind-tab">
+            <h3>Left Behind</h3>
+          </div>
+        </div>
+      </div>
+    </div>
+  
+    <div class="tab-pane fade" id="bubblescape" role="tabpanel" aria-labelledby="bubblescape-tab">
+      <div id="bubblescape-list">
+        <ul class="nav nav-pills justify-content-around bg-customdark" id="bubblescape-list" role="tablist">
+          <li class="nav-item tertiary">
+            <a class="nav-tab-link-tertiary active" href="#pushuntilyoupop" id="pushuntilyoupop-tab" data-toggle="pill" role="tab" aria-controls="pushuntilyoupop">Push Until You Pop</a>
+          </li>
+          <li class="nav-item tertiary">
+            <a class="nav-tab-link-tertiary" href="#soundmakers" id="soundmakers-tab" data-toggle="pill" role="tab" aria-controls="soundmakers">Sound Makers</a>
+          </li>
+          <li class="nav-item tertiary">
+            <a class="nav-tab-link-tertiary" href="#wallbubblescape" id="wallbubblescape-tab" data-toggle="pill" role="tab" aria-controls="wallbubblescape">Wall Bubblescape</a>
+          </li>
+          <li class="nav-item tertiary">
+            <a class="nav-tab-link-tertiary" href="#forclara" id="forclara-tab" data-toggle="pill" role="tab" aria-controls="forclara">For Clara</a>
+          </li>
+          <li class="nav-item tertiary">
+            <a class="nav-tab-link-tertiary" href="#primalinstinct" id="primalinstinct-tab" data-toggle="pill" role="tab" aria-controls="primalinstinct">Primal Instinct</a>
+          </li>
+          <li class="nav-item tertiary">
+            <a class="nav-tab-link-tertiary" href="#soapbubbles" id="soapbubbles-tab" data-toggle="pill" role="tab" aria-controls="soapbubbles">Soap Bubbles</a>
+          </li>
+        </ul>
+      </div>
+  
+      <div class="container pt-2">
+        <div class="tab-content">
+          <div class="tab-pane fade show active" id="pushuntilyoupop" role="tabpanel" aria-labelledby="pushuntilyoupop-tab">
+            <h3>Push Until You Pop</h3>
+            <div class="flex-left-align-last pt-2">
+            </div>
+          </div>
+          <div class="tab-pane fade" id="soundmakers" role="tabpanel" aria-labelledby="soundmakers-tab">
+            <h3>Sound Makers</h3>
+          </div>
+          <div class="tab-pane fade" id="wallbubblescape" role="tabpanel" aria-labelledby="wallbubblescape-tab">
+            <h3>Wall Bubblescape</h3>
+          </div>
+          <div class="tab-pane fade" id="forclara" role="tabpanel" aria-labelledby="forclara-tab">
+            <h3>For Clara</h3>
+          </div>
+          <div class="tab-pane fade" id="primalinstinct" role="tabpanel" aria-labelledby="primalinstinct-tab">
+            <h3>Primal Instinct</h3>
+          </div>
+          <div class="tab-pane fade" id="soapbubbles" role="tabpanel" aria-labelledby="soapbubbles-tab">
+            <h3>Soap Bubbles</h3>
+          </div>
+        </div>
+      </div>
+    </div>
+    
+    <div class="tab-pane fade" id="horns" role="tabpanel" aria-labelledby="horns-tab">
+      <div id="horns-list">
+        <ul class="nav nav-pills justify-content-around bg-customdark" id="horns-list" role="tablist">
+          <li class="nav-item tertiary">
+            <a class="nav-tab-link-tertiary active" href="#collaborativewithsamspees" id="collaborativewithsamspees-tab" data-toggle="pill" role="tab" aria-controls="collaborativewithsamspees">Collaborative With Sam Spees</a>
+          </li>
+          <li class="nav-item tertiary">
+            <a class="nav-tab-link-tertiary" href="#spectra" id="spectra-tab" data-toggle="pill" role="tab" aria-controls="spectra">Spectra</a>
+          </li>
+          <li class="nav-item tertiary">
+            <a class="nav-tab-link-tertiary" href="#mountedcrawl" id="mountedcrawl-tab" data-toggle="pill" role="tab" aria-controls="mountedcrawl">Mounted Crawl</a>
+          </li>
+          <li class="nav-item tertiary">
+            <a class="nav-tab-link-tertiary" href="#mounted" id="mounted-tab" data-toggle="pill" role="tab" aria-controls="mounted">Mounted</a>
+          </li>
+          <li class="nav-item tertiary">
+            <a class="nav-tab-link-tertiary" href="#surprise" id="surprise-tab" data-toggle="pill" role="tab" aria-controls="surprise">Surprise!</a>
+          </li>
+          <li class="nav-item tertiary">
+            <a class="nav-tab-link-tertiary" href="#carved" id="carved-tab" data-toggle="pill" role="tab" aria-controls="carved">Carved</a>
+          </li>
+          <li class="nav-item tertiary">
+            <a class="nav-tab-link-tertiary" href="#gilded" id="gilded-tab" data-toggle="pill" role="tab" aria-controls="gilded">Gilded</a>
+          </li>
+          <li class="nav-item tertiary">
+            <a class="nav-tab-link-tertiary" href="#patterned" id="patterned-tab" data-toggle="pill" role="tab" aria-controls="patterned">Patterned</a>
+          </li>
+          <li class="nav-item tertiary">
+            <a class="nav-tab-link-tertiary" href="#clear" id="clear-tab" data-toggle="pill" role="tab" aria-controls="clear">Clear</a>
+          </li>
+          <li class="nav-item tertiary">
+            <a class="nav-tab-link-tertiary" href="#penumbra" id="cpenumbra-tab" data-toggle="pill" role="tab" aria-controls="penumbra">Penumbra</a>
+          </li>
+        </ul>
+      </div>
+  
+      <div class="container pt-2">
+        <div class="tab-content">
+          <div class="tab-pane fade show active" id="collaborativewithsamspees" role="tabpanel" aria-labelledby="collaborativewithsamspees-tab">
+            <h3>Collaborative With Sam Spees</h3>
+            <div class="flex-left-align-last pt-2">
+            </div>
+          </div>
+          <div class="tab-pane fade" id="spectra" role="tabpanel" aria-labelledby="spectra-tab">
+            <h3>Spectra</h3>
+          </div>
+          <div class="tab-pane fade" id="mountedcrawl" role="tabpanel" aria-labelledby="mountedcrawl-tab">
+            <h3>Mounted Crawl</h3>
+          </div>
+          <div class="tab-pane fade" id="mounted" role="tabpanel" aria-labelledby="mounted-tab">
+            <h3>Mounted</h3>
+          </div>
+          <div class="tab-pane fade" id="surprise" role="tabpanel" aria-labelledby="surprise-tab">
+            <h3>Surprise!</h3>
+          </div>
+          <div class="tab-pane fade" id="carved" role="tabpanel" aria-labelledby="carved-tab">
+            <h3>Carved</h3>
+          </div>
+          <div class="tab-pane fade" id="gilded" role="tabpanel" aria-labelledby="gilded-tab">
+            <h3>Gilded</h3>
+          </div>
+          <div class="tab-pane fade" id="patterned" role="tabpanel" aria-labelledby="patterned-tab">
+            <h3>Patterned</h3>
+          </div>
+          <div class="tab-pane fade" id="clear" role="tabpanel" aria-labelledby="clear-tab">
+            <h3>Clear</h3>
+          </div>
+          <div class="tab-pane fade" id="penumbra" role="tabpanel" aria-labelledby="penumbra-tab">
+            <h3>Penumbra</h3>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
 </div>
+
+<!--
+<div class="container pt-5">
+  <div class="tab-content" id="nav-tabContent">
+    <div class="tab-pane fade show active" id="production" role="tabpanel" aria-labelledby="production-tab">
+      <div class="container">
+        <div class="row">
+          <div class="col-2" id="production-list">
+            <ul class="nav nav-pills flex-column  p-2 bg-customdark" id="production-list" role="tablist">
+              <li class="nav-item tertiary">
+                <a class="nav-tab-link-tertiary active" href="#cups" id="cups-tab" data-toggle="pill" role="tab" aria-controls="cups">Cups</a>
+              </li>
+              <li class="nav-item tertiary">
+                <a class="nav-tab-link-tertiary" href="#vases" id="vases-tab" data-toggle="pill" role="tab" aria-controls="vases">Vases</a>
+              </li>
+              <li class="nav-item tertiary">
+                <a class="nav-tab-link-tertiary" href="#plates" id="plates-tab" data-toggle="pill" role="tab" aria-controls="plates">Plates</a>
+              </li>
+              <li class="nav-item tertiary">
+                <a class="nav-tab-link-tertiary" href="#jewelry" id="jewelry-tab" data-toggle="pill" role="tab" aria-controls="jewelry">Jewelry</a>
+              </li>
+              <li class="nav-item tertiary">
+                <a class="nav-tab-link-tertiary" href="#custom" id="custom-tab" data-toggle="pill" role="tab" aria-controls="custom">Custom</a>
+              </li>
+            </ul>
+          </div>
+          <div class="col-10">
+            <div class="tab-content">
+              <div class="tab-pane fade show active" id="cups" role="tabpanel" aria-labelledby="cups-tab">
+                <h4>Cups</h4>
+              </div>
+              <div class="tab-pane fade" id="vases" role="tabpanel" aria-labelledby="vases-tab">
+                <h4>Vases</h4>
+              </div>
+              <div class="tab-pane fade" id="plates" role="tabpanel" aria-labelledby="plates-tab">
+                <h4>Plates</h4>
+              </div>
+              <div class="tab-pane fade" id="jewelry" role="tabpanel" aria-labelledby="jewelry-tab">
+                <h4>Jewelry</h4>
+              </div>
+              <div class="tab-pane fade" id="custom" role="tabpanel" aria-labelledby="custom-tab">
+                <h4>Custom</h4>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    
+    <div class="tab-pane fade" id="memorylens" role="tabpanel" aria-labelledby="memorylens-tab">
+      
+    </div>
+    
+    <div class="tab-pane fade" id="tablesettings" role="tabpanel" aria-labelledby="tablesettings-tab">
+      
+    </div>
+
+    <div class="tab-pane fade" id="bubblescape" role="tabpanel" aria-labelledby="bubblescape-tab">
+      
+    </div>
+    
+    <div class="tab-pane fade" id="horns" role="tabpanel" aria-labelledby="horns-tab">
+      
+    </div>
+  </div>
+</div>
+-->
+
+
+<!-- <div class="container">
+  <div class="row">
+    <div class="col-3" id="group">
+      <div class="nav flex-column nav-pills" id="pillGroup" role="tablist" aria-orientation="vertical">
+        <button class="btn btn-block text-left" type="button" data-toggle="collapse" data-target="#collapseProduction" aria-expanded="true" aria-controls="collapseProduction">Production</button>
+  
+        <div class="collapse multi-collapse" id="collapseProduction" data-parent="#group">
+          <a class="nav-pills-link-secondary" id="production-cups-tab" data-toggle="pill" href="#production-cups" role="tab" aria-controls="production-cups" aria-selected="true" data-parent="#pillGroup">Cups</a>
+          <a class="nav-pills-link-secondary" id="production-vases-tab" data-toggle="pill" href="#production-vases" role="tab" aria-controls="production-vases" aria-selected="false" data-parent="#pillGroup">Vases</a>
+          <a class="nav-pills-link-secondary" id="production-bowls-tab" data-toggle="pill" href="#production-bowls" role="tab" aria-controls="production-bowls" aria-selected="false" data-parent="#pillGroup">Bowls</a>
+          <a class="nav-pills-link-secondary" id="production-plates-tab" data-toggle="pill" href="#production-plates" role="tab" aria-controls="production-plates" aria-selected="false" data-parent="#pillGroup">Plates</a>
+          <a class="nav-pills-link-secondary" id="production-jewelry-tab" data-toggle="pill" href="#production-jewelry" role="tab" aria-controls="production-jewelry" aria-selected="false" data-parent="#pillGroup">Jewelry</a>
+          <a class="nav-pills-link-secondary" id="production-custom-tab" data-toggle="pill" href="#production-custom" role="tab" aria-controls="production-custom" aria-selected="false" data-parent="#pillGroup">Custom Orders</a>
+        </div>
+        <button class="btn btn-block text-left" type="button" data-toggle="collapse" data-target="#collapseMemoryLens" aria-expanded="false" aria-controls="collapseMemoryLens">Memory Lens</button>
+  
+        <div class="collapse multi-collapse" id="collapseMemoryLens" data-parent="#group">      
+          <a class="nav-pills-link-secondary" id="memorylens-orbs-tab" data-toggle="pill" href="#memorylens-orbs" role="tab" aria-controls="memorylens-orbs" aria-selected="true">Orbs</a>
+          <a class="nav-pills-link-secondary" id="memorylens-saltboxes-tab" data-toggle="pill" href="#memorylens-saltboxes" role="tab" aria-controls="memorylens-saltboxes" aria-selected="true">Salt Boxes</a>
+        </div>
+        <button class="btn btn-block text-left" type="button" data-toggle="collapse" data-target="#collapseTableSettings" aria-expanded="false" aria-controls="collapseTableSettings">Table Settings</button>
+  
+        <div class="collapse multi-collapse" id="collapseTableSettings" data-parent="#group">      
+          <div class="nav flex-column nav-pills" role="tablist" aria-orientation="vertical" data-parent="#group">
+            <a class="nav-pills-link-secondary" id="tablesettings-itriedtofixit-tab" data-toggle="pill" href="#tablesettings-itriedtofixit" role="tab" aria-controls="tablesettings-itriedtofixit" aria-selected="true">I Tried to Fix It</a>
+            <a class="nav-pills-link-secondary" id="tablesettings-longlunch-tab" data-toggle="pill" href="#tablesettings-longlunch" role="tab" aria-controls="tablesettings-longlunch" aria-selected="true">Long Lunch</a>
+            <a class="nav-pills-link-secondary" id="tablesettings-teatimepast-tab" data-toggle="pill" href="#tablesettings-teatimepast" role="tab" aria-controls="tablesettings-teatimepast" aria-selected="true">Tea Time Past</a>
+            <a class="nav-pills-link-secondary" id="tablesettings-breakfastmeditation-tab" data-toggle="pill" href="#tablesettings-breakfastmeditation" role="tab" aria-controls="tablesettings-breakfastmeditation" aria-selected="true">Breakfast Meditation</a>
+            <a class="nav-pills-link-secondary" id="tablesettings-leftbehind-tab" data-toggle="pill" href="#tablesettings-leftbehind" role="tab" aria-controls="tablesettings-leftbehind" aria-selected="true">Left Behind</a>
+          </div>
+        </div>
+        <button class="btn btn-block text-left" type="button" data-toggle="collapse" data-target="#collapseBubblescape" aria-expanded="false" aria-controls="collapseBubblescape">Bubblescape</button>
+  
+        <div class="collapse multi-collapse" id="collapseBubblescape" data-parent="#group">      
+          <div class="nav flex-column nav-pills" role="tablist" aria-orientation="vertical" data-parent="#group">
+            <a class="nav-pills-link-secondary" id="bubblescape-pushuntilyoupop-tab" data-toggle="pill" href="#bubblescape-pushuntilyoupop" role="tab" aria-controls="bubblescape-pushuntilyoupop" aria-selected="true">Push Until You Pop</a>
+            <a class="nav-pills-link-secondary" id="bubblescape-soundmakers-tab" data-toggle="pill" href="#bubblescape-soundmakers" role="tab" aria-controls="bubblescape-soundmakers" aria-selected="true">Sound Makers</a>
+            <a class="nav-pills-link-secondary" id="bubblescape-wall-tab" data-toggle="pill" href="#bubblescape-wall" role="tab" aria-controls="bubblescape-wall" aria-selected="true">Wall Bubblescape</a>
+            <a class="nav-pills-link-secondary" id="bubblescape-forclara-tab" data-toggle="pill" href="#bubblescape-forclara" role="tab" aria-controls="bubblescape-forclara" aria-selected="true">For Clara</a>
+            <a class="nav-pills-link-secondary" id="bubblescape-orimalinstinct-tab" data-toggle="pill" href="#bubblescape-orimalinstinct" role="tab" aria-controls="bubblescape-orimalinstinct" aria-selected="true">Orimal Instinct</a>
+            <a class="nav-pills-link-secondary" id="bubblescape-soapbubbles-tab" data-toggle="pill" href="#bubblescape-soapbubbles" role="tab" aria-controls="bubblescape-soapbubbles" aria-selected="true">Soap Bubbles</a>
+          </div>
+        </div>
+        <button class="btn btn-block text-left" type="button" data-toggle="collapse" data-target="#collapseHorns" aria-expanded="false" aria-controls="collapseHorns">Horns</button>
+  
+        <div class="collapse multi-collapse" id="collapseHorns" data-parent="#group">
+          <div class="nav flex-column nav-pills" role="tablist" aria-orientation="vertical" data-parent="#group">
+            <a class="nav-pills-link-secondary" id="horns-samspees-tab" data-toggle="pill" href="#horns-samspees" role="tab" aria-controls="horns-samspees" aria-selected="true">Collabrorative with Sam Spees</a>
+            <a class="nav-pills-link-secondary" id="horns-spectra-tab" data-toggle="pill" href="#horns-spectra" role="tab" aria-controls="horns-spectra" aria-selected="true">Spectra</a>
+            <a class="nav-pills-link-secondary" id="horns-mountedcrawl-tab" data-toggle="pill" href="#horns-mountedcrawl" role="tab" aria-controls="horns-mountedcrawl" aria-selected="true">Mounted Crawl</a>
+            <a class="nav-pills-link-secondary" id="horns-mounted-tab" data-toggle="pill" href="#horns-mounted" role="tab" aria-controls="horns-mounted" aria-selected="true">Mounted</a>
+            <a class="nav-pills-link-secondary" id="horns-surprise-tab" data-toggle="pill" href="#horns-surprise" role="tab" aria-controls="horns-surprise" aria-selected="true">Surprise!</a>
+            <a class="nav-pills-link-secondary" id="horns-carved-tab" data-toggle="pill" href="#horns-carved" role="tab" aria-controls="horns-carved" aria-selected="true">Carved</a>
+            <a class="nav-pills-link-secondary" id="horns-gilded-tab" data-toggle="pill" href="#horns-gilded" role="tab" aria-controls="horns-gilded" aria-selected="true">Gilded</a>
+            <a class="nav-pills-link-secondary" id="horns-patterned-tab" data-toggle="pill" href="#horns-patterned" role="tab" aria-controls="horns-patterned" aria-selected="true">Patterned</a>
+            <a class="nav-pills-link-secondary" id="horns-clear-tab" data-toggle="pill" href="#horns-clear" role="tab" aria-controls="horns-clear" aria-selected="true">Clear</a>
+            <a class="nav-pills-link-secondary" id="horns-penumbra-tab" data-toggle="pill" href="#horns-penumbra" role="tab" aria-controls="horns-penumbra" aria-selected="true">Penumbra</a>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="col-9">
+      <div class="tab-content" id="tabContent">
+        <div class="tab-pane fade" id="production-cups" role="tabpanel" aria-labelledby="production-cups-tab">Cups</div>
+        <div class="tab-pane fade" id="production-vases" role="tabpanel" aria-labelledby="production-vases-tab">Vases</div>
+        <div class="tab-pane fade" id="production-bowls" role="tabpanel" aria-labelledby="production-bowls-tab">Bowls</div>
+        <div class="tab-pane fade" id="production-plates" role="tabpanel" aria-labelledby="production-plates-tab">Plates</div>
+        <div class="tab-pane fade" id="production-jewelry" role="tabpanel" aria-labelledby="production-jewelry-tab">Jewelry</div>
+        <div class="tab-pane fade" id="production-custom" role="tabpanel" aria-labelledby="production-custom-tab">Custom orders</div>
+        
+        <div class="tab-pane fade" id="memorylens-orbs" role="tabpanel" aria-labelledby="memorylens-orbs-tab">Orbs</div>
+        <div class="tab-pane fade" id="table-settings" role="tabpanel" aria-labelledby="table-settings-tab">...</div>
+        <div class="tab-pane fade" id="bubblescape" role="tabpanel" aria-labelledby="bubblescape-tab">...</div>
+        <div class="tab-pane fade" id="horns" role="tabpanel" aria-labelledby="horns-tab">...</div>
+      </div>
+    </div>
+  </div> -->

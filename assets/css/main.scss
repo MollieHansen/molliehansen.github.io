@@ -10,8 +10,57 @@
   letter-spacing: .1.5em;
 }
 
-.nav-link.active {
+.nav-pills-link {
+  @extend .nav-link;
   color: $primary !important;
+  background: $black !important;
+}
+
+.nav-pills-link.active {
+  color: $primary !important;
+  background: $secondary !important;
+}
+
+.nav-pills-link-secondary {
+  @extend .nav-pills-link;
+  margin-left: 16px !important;
+}
+
+.nav-main-link {
+  @extend .nav-link;
+}
+
+.nav-main-link.active {
+  color: $primary !important;
+}
+
+.nav-tab-link {
+  @extend .nav-link;
+  text-align: center !important;
+}
+
+.nav-tab-link.active {
+  color: $primary !important;
+  background: $bgdark !important;
+}
+
+.nav-tab-link-secondary {
+  @extend .nav-tab-link;
+}
+
+.nav-tab-link-secondary.active {
+  @extend .nav-tab-link, .active;
+  border-radius: .25rem .25rem 0px 0px !important;
+}
+
+.nav-tab-link-tertiary {
+  @extend .nav-tab-link;
+  color: $accent !important;
+}
+
+.nav-tab-link-tertiary.active {
+  background: $primary !important;
+  color: $black !important;
 }
 
 .nav-item.primary {
@@ -22,6 +71,11 @@
 
 .nav-item.secondary {
   text-transform: uppercase;
+}
+
+.nav-item.tertiary {
+  text-transform: uppercase;
+  text-align: center;
 }
 
 // Masthead
@@ -67,8 +121,23 @@
 // Container row and column
 .row-header {
   padding-top: 16px;
-  padding-bottom: 32px;
+  padding-bottom: 24px;
   color: $primary;
+}
+
+.bg-customdark {
+  background: $bgdark !important;
+}
+
+.secondary-nav {
+  background: $secondary !important;
+  border-radius: .25rem .25rem 0 0 !important;
+}
+
+.flex-left-align-last {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, 250px);
+  justify-content: center;
 }
 
 // Body
@@ -95,6 +164,16 @@ body, wrapper {
   object-position: center;
   width: 100%;
   max-height: 75vh;
+}
+
+.fitted-square {
+  object-fit: cover;
+  object-position: center;
+  width: 250px;
+  height: 250px;
+  padding-left: 8px;
+  padding-right: 8px;
+  padding-bottom: 16px;
 }
 
 .carousel-caption {

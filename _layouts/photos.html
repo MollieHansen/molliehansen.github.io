@@ -1,0 +1,19 @@
+<!DOCTYPE html>
+<html lang="en">
+  {% include head.html %}
+  <body>
+    {% include header.html %}
+    {{ content }}
+    <div id="lightboxModal" class="modal fade" tabindex="-1" role="dialog" aria-labelledby="lightboxModal" aria-hidden="true">
+      <div class="modal-dialog modal-dialog-centered" role="document">
+        <div class="modal-content">
+          <div class="modal-header">
+            <h1>Modal</h1>
+          </div>
+        </div>
+      </div>
+    </div>
+    {% include footer.html %}
+    {% include scripts.html %}
+  </body>
+</html>
