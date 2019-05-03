@@ -144,6 +144,7 @@
 body, wrapper {
   min-height: 100vh;
 }
+
 .flex-fill {
   flex: 1 1 auto;
 }
@@ -176,32 +177,22 @@ body, wrapper {
   padding-bottom: 16px;
 }
 
+.fitted-square-large {
+  object-fit: cover;
+  object-position: center;
+  width: 500px;
+  height: 500px;
+  padding-left: 8px;
+  padding-right: 8px;
+  padding-bottom: 16px;
+  text-align: center;
+}
+
 .carousel-caption {
   background-color: rgba(0, 0, 0, 0.4);
   padding-bottom: 4px;
   padding-top: 6px;
   bottom: 0;
-}
-
-// Loader
-.loader {
-border: 16px solid #f3f3f3;
-  border-radius: 50%;
-  border-top: 16px solid $primary;
-  width: 120px;
-  height: 120px;
-  -webkit-animation: spin 2s linear infinite;
-  animation: spin 2s linear infinite;
-}
-
-@-webkit-keyframes spin {
-  0% { -webkit-transform: rotate(0deg); }
-  100% { -webkit-transform: rotate(360deg); }
-}
-
-@keyframes spin {
-  0% { transform: rotate(0deg); }
-  100% { transform: rotate(360deg); }
 }
 
 // Footer
