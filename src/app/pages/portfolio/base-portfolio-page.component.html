@@ -1,0 +1,84 @@
+<div class="container max-w-max mx-auto px-4 py-4">
+  <!-- Back Button -->
+  <a routerLink="/portfolio"
+    class="inline-flex items-center text-lg text-black hover:text-black transition-colors mb-6">
+    <svg class="w-6 h-5" fill="none" stroke="currentColor" stroke-width="2" viewBox="0 0 24 24"
+      xmlns="http://www.w3.org/2000/svg">
+      <path stroke-linecap="round" stroke-linejoin="round" d="M15 19l-7-7 7-7" />
+    </svg>
+    Back
+  </a>
+
+  <!-- Main Container -->
+  <div class="mx-auto bg-white/80 backdrop-blur rounded-lg shadow p-8 font-lano">
+    <div class="flex flex-col lg:flex-row h-full">
+      <!-- Description Panel -->
+      <div class="lg:sticky lg:top-20 lg:h-[calc(100vh-5rem)] w-full lg:w-1/3 p-6 mb-6 lg:mb-0 bg-gray-50">
+        <h1 class="text-3xl font-bold mb-2 text-gray-800 font-sans">{{ title }}</h1>
+        <span class="inline-block bg-emerald-100 text-emerald-700 text-sm font-medium px-2 py-1 rounded-full mx-1 mb-4">
+          {{ year }}
+        </span>
+        <span class="inline-block bg-blue-100 text-blue-700 text-xs font-medium px-2 py-1 rounded-full mx-1 mb-4">
+          {{ materials }}
+        </span>
+        <p class="text-gray-700 leading-relaxed whitespace-pre-line">{{ description }}</p>
+      </div>
+
+      <!-- Image Grid -->
+      <div class="w-full lg:w-2/3 px-4 overflow-y-auto">
+        <div class="w-full px-4 overflow-y-auto">
+          <div class="columns-1 sm:columns-2 md:columns-3 gap-4">
+            @for (image of images; track image.assetFilePath) {
+              <div class="inline-block w-full mb-4 break-inside-avoid">
+                <div class="rounded-lg shadow-lg overflow-hidden cursor-pointer group" (click)="openLightbox(image)">
+                  <img
+                    [src]="image.thumbnailFilePath || image.assetFilePath"
+                    [alt]="image.title"
+                    loading="lazy"
+                    class="w-full h-auto object-cover rounded-lg transition-opacity duration-300 group-hover:opacity-90"
+                  />
+                </div>
+              </div>
+            }
+          </div>
+        </div>        
+      </div>      
+    </div>
+  </div>
+</div>
+
+<!-- Lightbox Overlay -->
+@if (lightboxImage) {
+  <div class="fixed inset-0 bg-black bg-opacity-70 flex items-center justify-center z-50">
+    
+    <!-- Previous Arrow -->
+    @if (hasPrevImage) {
+      <button
+        class="absolute left-4 top-1/2 -translate-y-1/2 text-white text-4xl hover:text-emerald-400 transition z-10"
+        (click)="navigateLightbox('prev')"
+        aria-label="Previous image"
+      >
+        ←
+      </button>
+    }
+
+    <!-- Next Arrow -->
+    @if (hasNextImage) {
+      <button
+        class="absolute right-4 top-1/2 -translate-y-1/2 text-white text-4xl hover:text-emerald-400 transition z-10"
+        (click)="navigateLightbox('next')"
+        aria-label="Next image"
+      >
+        →
+      </button>
+    }
+
+    <!-- Image -->
+    <img
+      [src]="lightboxImage.assetFilePath"
+      [alt]="lightboxImage.title"
+      class="max-w-full max-h-full rounded shadow-lg"
+      (click)="closeLightbox()"
+    />
+  </div>
+}
