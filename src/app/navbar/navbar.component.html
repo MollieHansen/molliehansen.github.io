@@ -1,0 +1,80 @@
+<!-- Navbar -->
+<nav class="fixed top-0 left-0 w-full z-50 bg-white/10 backdrop-blur-lg border-b border-white/20 shadow">
+  <div class="max-w-7xl mx-auto px-4 py-3 flex items-center justify-between text-white">
+
+    <!-- Logo and Title -->
+    <div class="flex flex-col items-center">
+      <a routerLink="/" class="group flex flex-col items-center text-3xl text-black font-semibold" (click)="closeMobileMenuNavigation()">
+        <span class="text-2xl -mb-1.5 opacity-0 group-hover:opacity-100 transition-opacity duration-300">🎀</span>
+        Mollie Hansen
+      </a>
+    </div>
+
+    <!-- Desktop Menu -->
+    <ul class="hidden md:flex space-x-6">
+      @for (navLink of navLinks; track navLink.path) {
+        <li>
+          <a
+            routerLink="{{ navLink.path }}"
+            routerLinkActive="text-black underline decoration-2 underline-offset-4"
+            class="uppercase text-gray-700 hover:text-black hover:decoration-2 hover:underline hover:underline-offset-4"
+          >
+            {{ navLink.label }}
+          </a>
+        </li>
+      }
+    </ul>
+
+    <!-- Mobile Menu Button -->
+    <button
+      class="md:hidden"
+      (click)="toggleMobileMenu()"
+      [attr.aria-expanded]="isMobileMenuOpen"
+      aria-label="Toggle menu"
+    >
+      <svg xmlns="http://www.w3.org/2000/svg" class="h-6 w-6 text-gray-700" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+        <path [attr.d]="isMobileMenuOpen 
+                ? 'M6 18L18 6M6 6l12 12' 
+                : 'M4 6h16M4 12h16M4 18h16'"
+              stroke-linecap="round"
+              stroke-linejoin="round"
+              stroke-width="2" />
+      </svg>
+    </button>
+
+  </div>
+</nav>
+
+@if (isMenuVisible) {
+<!-- Backdrop and Menu Container (always in DOM for animation) -->
+<div
+  class="fixed inset-0 z-40 md:hidden"
+  (click)="closeMobileMenu()"
+>
+  <!-- Backdrop -->
+  <div class="absolute inset-0"></div>
+
+  <!-- Mobile Menu Panel -->
+  <div
+  class="relative pt-28 pb-2 space-y-4 px-4 bg-white/80 backdrop-blur rounded-b-lg shadow duration-300 origin-top transform transition-discrete"
+    [class.opacity-0]="!isMobileMenuOpen"
+    [class.scale-y-75]="!isMobileMenuOpen"
+    (click)="$event.stopPropagation()"
+  >
+    <ul class="list-none space-y-4 mb-4">
+      @for (navLink of navLinks; track navLink.path) {
+        <li>
+          <a
+            routerLink="{{ navLink.path }}"
+            routerLinkActive="text-black underline decoration-2 underline-offset-4"
+            class="block uppercase text-gray-700 hover:text-black hover:decoration-2 hover:underline hover:underline-offset-4"
+            (click)="closeMobileMenuNavigation()"
+          >
+            {{ navLink.label }}
+          </a>
+        </li>
+      }
+    </ul>
+  </div>
+</div>
+}

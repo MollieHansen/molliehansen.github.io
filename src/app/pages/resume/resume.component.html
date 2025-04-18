@@ -1,0 +1,37 @@
+<div class="container mx-auto px-4 py-12 max-w-4xl space-y-12">
+    <!-- Page Title -->
+    <div>
+      <h1 class="text-4xl font-bold text-gray-800 mb-2">Resume</h1>
+      <p class="text-gray-600">Mollie Hansen - Visual Glass Artist</p>
+    </div>
+
+     @for (section of sections; track section.title) {
+      <section>
+        <h2 class="text-2xl font-semibold text-gray-800 mb-4 border-b border-gray-300 pb-2">{{ section.title }}</h2>
+        <div class="space-y-2">
+          @for (item of section.items; track item.title) {
+            <div class="grid grid-cols-1 md:grid-cols-3 gap-4 bg-white/70 backdrop-blur rounded-lg shadow p-4">
+              <div class="text-gray-500">{{ item.year }}</div>
+              <div class="md:col-span-2">
+                @if (item.title.length != 0) {
+                  <h3 class="text-lg font-semibold text-gray-800">{{ item.title }}</h3>
+                }
+
+                  @if (isArray(item.details)) {
+                    <ul class="list-disc ml-5">
+                      @for (detail of item.details; track detail) {
+                        <li><h3 class="text-lg text-gray-800">{{ detail }}</h3></li>
+                      }
+                    </ul>
+                  } @else {
+                    <h3 class="text-lg text-gray-800">{{ item.details }}</h3>
+                  }
+                <p class="text-gray-600">{{ item.location }}</p>
+              </div>
+            </div>
+          }
+        </div>
+      </section>
+     }
+  </div>
+  
