@@ -7,15 +7,15 @@ import { PortfolioComponent } from './pages/portfolio/portfolio.component';
 import { DynamicPortfolioPageComponent } from './pages/portfolio/dynamic-portfolio-page.component';
 
 export const routes: Routes = [
-  { path: '', component: PortfolioComponent },
-  { path: 'about', component: AboutComponent },
-  { path: 'resume', component: ResumeComponent },
-  { path: 'contact', component: ContactComponent },
+  { path: '', component: HomeComponent, data: { animation: 'Home' }},
+  { path: 'about', component: AboutComponent, data: { animation: 'About' } },
+  { path: 'resume', component: ResumeComponent, data: { animation: 'Resume' } },
+  { path: 'contact', component: ContactComponent, data: { animation: 'Contact' } },
   { 
     path: 'portfolio',
     children: [
-      { path: '', component: PortfolioComponent },
-      { path: ':section', component: DynamicPortfolioPageComponent }
+      { path: '', component: PortfolioComponent, data: { animation: 'Portfolio' } },
+      { path: ':section', component: DynamicPortfolioPageComponent, data: { animation: 'DynamicPortfolio' } }
     ]
  }
 ];

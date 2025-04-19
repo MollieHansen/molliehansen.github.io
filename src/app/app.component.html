@@ -1,5 +1,6 @@
 <app-navbar></app-navbar>
-<body class="pt-24">
-  <router-outlet />
+<body>
+  <main [@routeFadeAnimation]="prepareRoute(outlet)">
+    <router-outlet #outlet="outlet"></router-outlet>
+  </main>
 </body>
-  

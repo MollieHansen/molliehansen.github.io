@@ -1,1 +1,23 @@
-<p>home works!</p>
+<div class="relative h-screen overflow-hidden">
+  <div
+    class="absolute inset-0 bg-cover bg-center bg-no-repeat"
+    style="background-image: url('/assets/HomeBackground.jpg')"
+  ></div>
+
+  <div class="absolute inset-0"></div>
+
+  <div class="relative z-10 flex items-center justify-center h-full px-4 text-center">
+    <div class="px-10 py-12 rounded-xl shadow-lg max-w-xl bg-white/5 backdrop-blur-xs">
+      <h1 class="text-4xl sm:text-6xl font-bold mb-4 text-emerald-900">Welcome</h1>
+      <p class="text-lg sm:text-xl mb-6 text-gray-700">
+        Explore my work and creative journey
+      </p>
+      <a
+        routerLink="/portfolio"
+        class="inline-block bg-emerald-800 hover:bg-emerald-600 text-white font-semibold px-6 py-3 rounded-lg transition"
+      >
+        Portfolio
+      </a>
+    </div>
+  </div>
+</div>
