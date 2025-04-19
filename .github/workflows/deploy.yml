@@ -27,6 +27,9 @@ jobs:
       - name: 🛠️ Build Angular app
         run: npm run build -- --configuration production
 
+      - name: 📝 Copy index.html to 404.html
+        run: cp dist/molliehansen/browser/index.html dist/molliehansen/browser/404.html
+
       - name: 🚀 Deploy to GitHub Pages
         uses: JamesIves/github-pages-deploy-action@v4
         with:
