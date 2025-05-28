@@ -1,4 +1,357 @@
 {
+  "evadingMirror": {
+    "title": "Evading Mirror",
+    "description": "Iridescence is the phenomenon of light interference. What would it be like to create an iridescent mirror? Shards of thin glass layered together create a reflective surface but when there are outside interfering lights it is impossible to see a clear reflection. Our understanding of the world is complex and takes up multiple points of view and perspectives that are constantly changing depending upon the outside forces or light that interferes with our ability to see a full clear reflection. One is able to see the beauty in the change in color and reflection at each angle in pursuit of seeing ourselves and our reflections clearly. There is wonder and beauty in the uncertainty and journey of understanding ourselves in relation to the world around us.",
+    "materials": "Glass, Found Frame, Glue, Paint, and Steel",
+    "size": "71\" x 41\" x 6\"",
+    "year": "2025",
+    "images": [
+      {
+        "assetFilePath": "assets/portfolio/evadingMirror/EvadingMirror01.jpeg",
+        "thumbnailFilePath": "assets/portfolio/evadingMirror/thumbnails/thumb-EvadingMirror01.jpeg"
+      },
+      {
+        "assetFilePath": "assets/portfolio/evadingMirror/EvadingMirror02.jpeg",
+        "thumbnailFilePath": "assets/portfolio/evadingMirror/thumbnails/thumb-EvadingMirror02.jpeg"
+      },
+      {
+        "assetFilePath": "assets/portfolio/evadingMirror/EvadingMirror03.jpeg",
+        "thumbnailFilePath": "assets/portfolio/evadingMirror/thumbnails/thumb-EvadingMirror03.jpeg"
+      },
+      {
+        "assetFilePath": "assets/portfolio/evadingMirror/EvadingMirror04.jpeg",
+        "thumbnailFilePath": "assets/portfolio/evadingMirror/thumbnails/thumb-EvadingMirror04.jpeg"
+      },
+      {
+        "assetFilePath": "assets/portfolio/evadingMirror/EvadingMirror05.jpeg",
+        "thumbnailFilePath": "assets/portfolio/evadingMirror/thumbnails/thumb-EvadingMirror05.jpeg"
+      },
+      {
+        "assetFilePath": "assets/portfolio/evadingMirror/EvadingMirror06.jpeg",
+        "thumbnailFilePath": "assets/portfolio/evadingMirror/thumbnails/thumb-EvadingMirror06.jpeg"
+      },
+      {
+        "assetFilePath": "assets/portfolio/evadingMirror/EvadingMirror07.jpeg",
+        "thumbnailFilePath": "assets/portfolio/evadingMirror/thumbnails/thumb-EvadingMirror07.jpeg"
+      },
+      {
+        "assetFilePath": "assets/portfolio/evadingMirror/EvadingMirror08.jpeg",
+        "thumbnailFilePath": "assets/portfolio/evadingMirror/thumbnails/thumb-EvadingMirror08.jpeg"
+      },
+      {
+        "assetFilePath": "assets/portfolio/evadingMirror/EvadingMirror09.jpeg",
+        "thumbnailFilePath": "assets/portfolio/evadingMirror/thumbnails/thumb-EvadingMirror09.jpeg"
+      },
+      {
+        "assetFilePath": "assets/portfolio/evadingMirror/EvadingMirror10.jpeg",
+        "thumbnailFilePath": "assets/portfolio/evadingMirror/thumbnails/thumb-EvadingMirror10.jpeg"
+      },
+      {
+        "assetFilePath": "assets/portfolio/evadingMirror/EvadingMirror11.jpeg",
+        "thumbnailFilePath": "assets/portfolio/evadingMirror/thumbnails/thumb-EvadingMirror11.jpeg"
+      },
+      {
+        "assetFilePath": "assets/portfolio/evadingMirror/EvadingMirror12.jpeg",
+        "thumbnailFilePath": "assets/portfolio/evadingMirror/thumbnails/thumb-EvadingMirror12.jpeg"
+      },
+      {
+        "assetFilePath": "assets/portfolio/evadingMirror/EvadingMirror13.jpeg",
+        "thumbnailFilePath": "assets/portfolio/evadingMirror/thumbnails/thumb-EvadingMirror13.jpeg"
+      },
+      {
+        "assetFilePath": "assets/portfolio/evadingMirror/EvadingMirror14.jpeg",
+        "thumbnailFilePath": "assets/portfolio/evadingMirror/thumbnails/thumb-EvadingMirror14.jpeg"
+      },
+      {
+        "assetFilePath": "assets/portfolio/evadingMirror/EvadingMirror15.jpeg",
+        "thumbnailFilePath": "assets/portfolio/evadingMirror/thumbnails/thumb-EvadingMirror15.jpeg"
+      }
+    ],
+    "heroImage": {
+      "assetFilePath": "assets/portfolio/evadingMirror/EvadingMirror01.jpeg",
+      "thumbnailFilePath": "assets/portfolio/evadingMirror/thumbnails/thumb-EvadingMirror01.jpeg"
+    }
+  },
+  "weepingLamp": {
+    "title": "Weeping Lamp",
+    "description": "A lampshade carefully put together using wax holds then shards of pink gold ruby glass resembling scars. When the lamp is on, the bulb melts the wax, and those scars are slowly shed. This piece evokes the melancholy and beauty of healing and change of shedding the scars that were used to help us cope but ultimately dim our inner light. This process is a constant cycle of transmutation within the mind. This piece is an installation video paired with the *Guarding Rug* provides sound for the video that is meant for the viewer to piece together.",
+    "materials": "Found Rug, Found Table, Found Lamp, Glass, Wax, Incandescent bulb, Paint, and Gold Leaf",
+    "year": "2025",
+    "images": [
+      {
+        "assetFilePath": "assets/portfolio/weepingLamp/WeepingLamp01.jpeg",
+        "thumbnailFilePath": "assets/portfolio/weepingLamp/thumbnails/thumb-WeepingLamp01.jpeg"
+      },
+      {
+        "assetFilePath": "assets/portfolio/weepingLamp/WeepingLamp02.jpeg",
+        "thumbnailFilePath": "assets/portfolio/weepingLamp/thumbnails/thumb-WeepingLamp02.jpeg"
+      },
+      {
+        "assetFilePath": "assets/portfolio/weepingLamp/WeepingLamp03.jpeg",
+        "thumbnailFilePath": "assets/portfolio/weepingLamp/thumbnails/thumb-WeepingLamp03.jpeg"
+      }
+    ],
+    "heroImage": {
+      "assetFilePath": "assets/portfolio/weepingLamp/WeepingLamp01.jpeg",
+      "thumbnailFilePath": "assets/portfolio/weepingLamp/thumbnails/thumb-WeepingLamp01.jpeg"
+    }
+  },
+  "guardingRug": {
+    "title": "Guarding Rug",
+    "description": "This piece was a multisensory experience. A rug with gold edged fringe frames the destruction that has been swept underneath. Viewers are encouraged to walk across the installation and feel the sensation of broken glass that further breaks apart reminding us all that our problems or scars never go away especially when ignored they are just breaking down further. This piece is meant to pair with the video projection of the *Weeping Lamp* and serves as the sound element of the video. The rug is the remnants of the installation of the *Weeping Lamp* as is indicated by the wax drips on top of and what was left of the lamp underneath the rug.",
+    "materials": "Found Rug, Glass, Wax, Gold Leaf, Hardboard, Plastic, and Glue",
+    "size": "94\" x 59\"",
+    "year": "2025",
+    "images": [
+      {
+        "assetFilePath": "assets/portfolio/guardingRug/GuardingRug02.jpeg",
+        "thumbnailFilePath": "assets/portfolio/guardingRug/thumbnails/thumb-GuardingRug02.jpeg"
+      },
+      {
+        "assetFilePath": "assets/portfolio/guardingRug/GuardingRug03.jpeg",
+        "thumbnailFilePath": "assets/portfolio/guardingRug/thumbnails/thumb-GuardingRug03.jpeg"
+      }
+    ],
+    "heroImage": {
+      "assetFilePath": "assets/portfolio/guardingRug/GuardingRug02.jpeg",
+      "thumbnailFilePath": "assets/portfolio/guardingRug/thumbnails/thumb-GuardingRug02.jpeg"
+    }
+  },
+  "portraitWall": {
+    "title": "Portrait Wall",
+    "description": "We attempt to contain memories with photographs. But photographs fail. They cannot fully grasp the moment or memory just as memory itself fails. This piece attempts to recreate a portrait wall where the frames are painted the same color as thew all and fade away to reveal what the glass with all the images are doing. They are in a state of motion or dripping and melting slowly way and distorting the image in the process, just how often or conception of a memory distorts and falls away.",
+    "materials": "Glass, Wood Frames, Enamel, and Paint",
+    "year": "2025",
+    "images": [
+      {
+        "assetFilePath": "assets/portfolio/portraitWall/PortraitWall01.jpeg",
+        "thumbnailFilePath": "assets/portfolio/portraitWall/thumbnails/thumb-PortraitWall01.jpeg"
+      },
+      {
+        "assetFilePath": "assets/portfolio/portraitWall/PortraitWall02.jpeg",
+        "thumbnailFilePath": "assets/portfolio/portraitWall/thumbnails/thumb-PortraitWall02.jpeg"
+      },
+      {
+        "assetFilePath": "assets/portfolio/portraitWall/PortraitWall03.jpeg",
+        "thumbnailFilePath": "assets/portfolio/portraitWall/thumbnails/thumb-PortraitWall03.jpeg"
+      },
+      {
+        "assetFilePath": "assets/portfolio/portraitWall/PortraitWall04.jpeg",
+        "thumbnailFilePath": "assets/portfolio/portraitWall/thumbnails/thumb-PortraitWall04.jpeg"
+      },
+      {
+        "assetFilePath": "assets/portfolio/portraitWall/PortraitWall05.jpeg",
+        "thumbnailFilePath": "assets/portfolio/portraitWall/thumbnails/thumb-PortraitWall05.jpeg"
+      }
+    ],
+    "heroImage": {
+      "assetFilePath": "assets/portfolio/portraitWall/PortraitWall01.jpeg",
+      "thumbnailFilePath": "assets/portfolio/portraitWall/thumbnails/thumb-PortraitWall01.jpeg"
+    }
+  },
+  "familyRepast": {
+    "title": "Family Repast",
+    "description": "The dinner table is a site for communicating through acts of care that transcends language and cultural barriers. The video is of various hands from two different families coming together to share a meal and become one family through marriage. The transparent glass of the objects from the video placed over it is a means of viewing. The video is not always clear, and the viewer is not always sure what is going on. Except for small moments of clarity that intentionally show that act of this family feeding one another. This is meant to portray the feeling one has of uncertainty and lack of knowledge when there are cultural and language barriers, yet the act of care and food is universal.",
+    "materials": "Video, iPad, Glass, and Table",
+    "year": "2024",
+    "images": [
+      {
+        "assetFilePath": "assets/portfolio/familyRepast/FamilyRepast01.jpeg",
+        "thumbnailFilePath": "assets/portfolio/familyRepast/thumbnails/thumb-FamilyRepast01.jpeg"
+      },
+      {
+        "assetFilePath": "assets/portfolio/familyRepast/FamilyRepast02.jpeg",
+        "thumbnailFilePath": "assets/portfolio/familyRepast/thumbnails/thumb-FamilyRepast02.jpeg"
+      },
+      {
+        "assetFilePath": "assets/portfolio/familyRepast/FamilyRepast03.jpeg",
+        "thumbnailFilePath": "assets/portfolio/familyRepast/thumbnails/thumb-FamilyRepast03.jpeg"
+      },
+      {
+        "assetFilePath": "assets/portfolio/familyRepast/FamilyRepast04.jpeg",
+        "thumbnailFilePath": "assets/portfolio/familyRepast/thumbnails/thumb-FamilyRepast04.jpeg"
+      },
+      {
+        "assetFilePath": "assets/portfolio/familyRepast/FamilyRepast05.jpeg",
+        "thumbnailFilePath": "assets/portfolio/familyRepast/thumbnails/thumb-FamilyRepast05.jpeg"
+      },
+      {
+        "assetFilePath": "assets/portfolio/familyRepast/FamilyRepast06.jpeg",
+        "thumbnailFilePath": "assets/portfolio/familyRepast/thumbnails/thumb-FamilyRepast06.jpeg"
+      }
+    ],
+    "heroImage": {
+      "assetFilePath": "assets/portfolio/familyRepast/FamilyRepast01.jpeg",
+      "thumbnailFilePath": "assets/portfolio/familyRepast/thumbnails/thumb-FamilyRepast01.jpeg"
+    }
+  },
+  "primordialCreation": {
+    "title": "Primordial Creation",
+    "description": "We can all be transformed and transported into vessels for use. Constantly acted upon by our surroundings and made into these vessels. To grow and change we must be in battle with ideas in a state of unmaking and remaking. I want to take you to that place between making and unmaking. After and Before. Shinning iridescence of the primordial essence of what things truly are seeps through and transports you to that state.",
+    "materials": "Glass and Vinyl",
+    "year": "2024",
+    "images": [
+      {
+        "assetFilePath": "assets/portfolio/primordialCreation/PrimordialCreation01.jpg",
+        "thumbnailFilePath": "assets/portfolio/primordialCreation/thumbnails/thumb-PrimordialCreation01.jpg"
+      },
+      {
+        "assetFilePath": "assets/portfolio/primordialCreation/PrimordialCreation02.jpg",
+        "thumbnailFilePath": "assets/portfolio/primordialCreation/thumbnails/thumb-PrimordialCreation02.jpg"
+      },
+      {
+        "assetFilePath": "assets/portfolio/primordialCreation/PrimordialCreation03.jpg",
+        "thumbnailFilePath": "assets/portfolio/primordialCreation/thumbnails/thumb-PrimordialCreation03.jpg"
+      },
+      {
+        "assetFilePath": "assets/portfolio/primordialCreation/PrimordialCreation04.jpg",
+        "thumbnailFilePath": "assets/portfolio/primordialCreation/thumbnails/thumb-PrimordialCreation04.jpg"
+      },
+      {
+        "assetFilePath": "assets/portfolio/primordialCreation/PrimordialCreation05.jpg",
+        "thumbnailFilePath": "assets/portfolio/primordialCreation/thumbnails/thumb-PrimordialCreation05.jpg"
+      },
+      {
+        "assetFilePath": "assets/portfolio/primordialCreation/PrimordialCreation06.jpg",
+        "thumbnailFilePath": "assets/portfolio/primordialCreation/thumbnails/thumb-PrimordialCreation06.jpg"
+      },
+      {
+        "assetFilePath": "assets/portfolio/primordialCreation/PrimordialCreation07.jpg",
+        "thumbnailFilePath": "assets/portfolio/primordialCreation/thumbnails/thumb-PrimordialCreation07.jpg"
+      },
+      {
+        "assetFilePath": "assets/portfolio/primordialCreation/PrimordialCreation08.jpg",
+        "thumbnailFilePath": "assets/portfolio/primordialCreation/thumbnails/thumb-PrimordialCreation08.jpg"
+      },
+      {
+        "assetFilePath": "assets/portfolio/primordialCreation/PrimordialCreation09.jpg",
+        "thumbnailFilePath": "assets/portfolio/primordialCreation/thumbnails/thumb-PrimordialCreation09.jpg"
+      },
+      {
+        "assetFilePath": "assets/portfolio/primordialCreation/PrimordialCreation10.jpg",
+        "thumbnailFilePath": "assets/portfolio/primordialCreation/thumbnails/thumb-PrimordialCreation10.jpg"
+      },
+      {
+        "assetFilePath": "assets/portfolio/primordialCreation/PrimordialCreation11.jpg",
+        "thumbnailFilePath": "assets/portfolio/primordialCreation/thumbnails/thumb-PrimordialCreation11.jpg"
+      },
+      {
+        "assetFilePath": "assets/portfolio/primordialCreation/PrimordialCreation12.jpg",
+        "thumbnailFilePath": "assets/portfolio/primordialCreation/thumbnails/thumb-PrimordialCreation12.jpg"
+      },
+      {
+        "assetFilePath": "assets/portfolio/primordialCreation/PrimordialCreation13.jpg",
+        "thumbnailFilePath": "assets/portfolio/primordialCreation/thumbnails/thumb-PrimordialCreation13.jpg"
+      },
+      {
+        "assetFilePath": "assets/portfolio/primordialCreation/PrimordialCreation14.jpg",
+        "thumbnailFilePath": "assets/portfolio/primordialCreation/thumbnails/thumb-PrimordialCreation14.jpg"
+      },
+      {
+        "assetFilePath": "assets/portfolio/primordialCreation/PrimordialCreation15.jpg",
+        "thumbnailFilePath": "assets/portfolio/primordialCreation/thumbnails/thumb-PrimordialCreation15.jpg"
+      },
+      {
+        "assetFilePath": "assets/portfolio/primordialCreation/PrimordialCreation16.jpg",
+        "thumbnailFilePath": "assets/portfolio/primordialCreation/thumbnails/thumb-PrimordialCreation16.jpg"
+      }
+    ],
+    "heroImage": {
+      "assetFilePath": "assets/portfolio/primordialCreation/PrimordialCreation01.jpg",
+      "thumbnailFilePath": "assets/portfolio/primordialCreation/thumbnails/thumb-PrimordialCreation01.jpg"
+    }
+  },
+  "theWindow": {
+    "title": "The Window",
+    "description": "This piece explores how one can never truly understand themselves. Using iridescence (the physical manifestation of light interference) as a metaphor for the various interferences in life that make it impossible to see your own reflection clearly. From afar the decadently decorated frame is reminiscent of a mirror, but once one gets up close, you realize that the glass has a mark representative of traditional window making. This object is meant to act as the portal into the mind we cannot see or reach.",
+    "materials": "Vinyl, Wood, and Glass",
+    "size": "15\" x 12\"",
+    "year": "2024",
+    "images": [
+      {
+        "assetFilePath": "assets/portfolio/theWindow/TheWindow01.jpeg",
+        "thumbnailFilePath": "assets/portfolio/theWindow/thumbnails/thumb-TheWindow01.jpeg"
+      },
+      {
+        "assetFilePath": "assets/portfolio/theWindow/TheWindow02.jpeg",
+        "thumbnailFilePath": "assets/portfolio/theWindow/thumbnails/thumb-TheWindow02.jpeg"
+      }
+    ],
+    "heroImage": {
+      "assetFilePath": "assets/portfolio/theWindow/TheWindow01.jpeg",
+      "thumbnailFilePath": "assets/portfolio/theWindow/thumbnails/thumb-TheWindow01.jpeg"
+    }
+  },
+  "whenTheDishRanAwayWithTheSpoon": {
+    "title": "When the Dish Ran Away with the Spoon",
+    "description": "This piece is an exploration into the dynamics of any close relationship. Sometimes we are the spoon constantly providing nourishment and a tool for care and feeding. Other times you are the dish. Always in service of others creating a safe place for rest (especially for the spoon). It is my hope that with this piece viewers can begin to question when they are the dish or when they are the spoon and recognize the importance of the push and pull of this dynamic. Without it we are all just a swarm of plates and cutlery in constant use, whose only function is to be a part of a whole.",
+    "materials": "Found Glass, Spoon, Glue",
+    "size": "6” x 8” (individually) larger display will vary",
+    "year": "2024",
+    "images": [
+      {
+        "assetFilePath": "assets/portfolio/whenTheDishRanAwayWithTheSpoon/WTDRAWTS 01.jpg",
+        "thumbnailFilePath": "assets/portfolio/whenTheDishRanAwayWithTheSpoon/thumbnails/thumb-WTDRAWTS 01.jpg"
+      },
+      {
+        "assetFilePath": "assets/portfolio/whenTheDishRanAwayWithTheSpoon/WTDRAWTS 02.jpg",
+        "thumbnailFilePath": "assets/portfolio/whenTheDishRanAwayWithTheSpoon/thumbnails/thumb-WTDRAWTS 02.jpg"
+      },
+      {
+        "assetFilePath": "assets/portfolio/whenTheDishRanAwayWithTheSpoon/WTDRAWTS 03.jpg",
+        "thumbnailFilePath": "assets/portfolio/whenTheDishRanAwayWithTheSpoon/thumbnails/thumb-WTDRAWTS 03.jpg"
+      },
+      {
+        "assetFilePath": "assets/portfolio/whenTheDishRanAwayWithTheSpoon/WTDRAWTS 04.jpg",
+        "thumbnailFilePath": "assets/portfolio/whenTheDishRanAwayWithTheSpoon/thumbnails/thumb-WTDRAWTS 04.jpg"
+      },
+      {
+        "assetFilePath": "assets/portfolio/whenTheDishRanAwayWithTheSpoon/WTDRAWTS 05.jpg",
+        "thumbnailFilePath": "assets/portfolio/whenTheDishRanAwayWithTheSpoon/thumbnails/thumb-WTDRAWTS 05.jpg"
+      },
+      {
+        "assetFilePath": "assets/portfolio/whenTheDishRanAwayWithTheSpoon/WTDRAWTS 06.jpg",
+        "thumbnailFilePath": "assets/portfolio/whenTheDishRanAwayWithTheSpoon/thumbnails/thumb-WTDRAWTS 06.jpg"
+      },
+      {
+        "assetFilePath": "assets/portfolio/whenTheDishRanAwayWithTheSpoon/WTDRAWTS 07.jpg",
+        "thumbnailFilePath": "assets/portfolio/whenTheDishRanAwayWithTheSpoon/thumbnails/thumb-WTDRAWTS 07.jpg"
+      }
+    ],
+    "heroImage": {
+      "assetFilePath": "assets/portfolio/whenTheDishRanAwayWithTheSpoon/WTDRAWTS 01.jpg",
+      "thumbnailFilePath": "assets/portfolio/whenTheDishRanAwayWithTheSpoon/thumbnails/thumb-WTDRAWTS 01.jpg"
+    }
+  },
+  "theSwarm": {
+    "title": "The Swarm",
+    "description": "Aren't we all just parts of a bigger whole? Tools to provide nourishment that fuels the swarm. Can you see yourself in the others? We are all nothing more than the insignificant spoon providing nourishment to the hive of society. You can try to dress in frill or shine a little brighter. In the end the reflection is still always the same.",
+    "materials": "Spoons, Epoxy, Silicone",
+    "size": "10\" x 20\"",
+    "year": "2024",
+    "images": [
+      {
+        "assetFilePath": "assets/portfolio/theSwarm/Swarm 01.jpg",
+        "thumbnailFilePath": "assets/portfolio/theSwarm/thumbnails/thumb-Swarm 01.jpg"
+      },
+      {
+        "assetFilePath": "assets/portfolio/theSwarm/Swarm 02.jpg",
+        "thumbnailFilePath": "assets/portfolio/theSwarm/thumbnails/thumb-Swarm 02.jpg"
+      },
+      {
+        "assetFilePath": "assets/portfolio/theSwarm/Swarm 03.jpg",
+        "thumbnailFilePath": "assets/portfolio/theSwarm/thumbnails/thumb-Swarm 03.jpg"
+      },
+      {
+        "assetFilePath": "assets/portfolio/theSwarm/Swarm 04.jpg",
+        "thumbnailFilePath": "assets/portfolio/theSwarm/thumbnails/thumb-Swarm 04.jpg"
+      }
+    ],
+    "heroImage": {
+      "assetFilePath": "assets/portfolio/theSwarm/Swarm 01.jpg",
+      "thumbnailFilePath": "assets/portfolio/theSwarm/thumbnails/thumb-Swarm 01.jpg"
+    }
+  },
   "invisibleWallpaper": {
     "title": "Invisible Wallpaper",
     "description": "Light reveals transferred knowledge. Each step of transfer blurs parts. To understand a single part better the rest is distorted and manipulated either through the magnification of the orbs or the orientation of the light. This piece is an inquiry into perceptions or privilege, knowledge, education, and transference. Each step is a little more and a little less revealing and is a representation of how through various educational institutions knowledge is a privilege and not clearly accessible. What is accessible if never the whole picture and is often blurry in some parts and noticeably clear in others, but at the end of the day it is still just a projection...an invisible wallpaper that covers up what is there...In this case a blank slate.",
@@ -173,74 +526,48 @@
       "thumbnailFilePath": "assets/portfolio/saltedBlooms/thumbnails/thumb-Salted Blooms 01.jpg"
     }
   },
-  "theSwarm": {
-    "title": "The Swarm",
-    "description": "Aren't we all just parts of a bigger whole? Tools to provide nourishment that fuels the swarm. Can you see yourself in the others? We are all nothing more than the insignificant spoon providing nourishment to the hive of society. You can try to dress in frill or shine a little brighter. In the end the reflection is still always the same.",
-    "materials": "Spoons, Epoxy, Silicone",
-    "size": "10\" x 20\"",
-    "year": "2024",
+  "aWalkThroughMyRoseWindow": {
+    "title": "A Walk Through My Rose Window",
+    "description": "This piece is meant to draw comparison to the use of light in spaces and how it can reflect the people who use it. It is meant to draw attention to the differing aspects of light in a sacred space and not directly decide which is better, but rather propose a new way of acknowledging light in a space. The piece references a rose window through its circular shape, the placement of the glass, and use of light. It differs because it is on the floor and constantly changing. It is accessible to any viewer in the same way that lighting a candle in a church can be. It allows viewers to be immersed within the piece that fills the space instead of a rose window that reveals light from above. It was installed in a space where viewers could walk through the installation and light candles themselves.",
+    "materials": "Blown Stressed Glass, Candle, Fire, Liquid Gold Leaf",
+    "year": "2023",
     "images": [
       {
-        "assetFilePath": "assets/portfolio/theSwarm/Swarm 01.jpg",
-        "thumbnailFilePath": "assets/portfolio/theSwarm/thumbnails/thumb-Swarm 01.jpg"
+        "assetFilePath": "assets/portfolio/aWalkThroughMyRoseWindow/RoseWindow01.jpg",
+        "thumbnailFilePath": "assets/portfolio/aWalkThroughMyRoseWindow/thumbnails/thumb-RoseWindow01.jpg"
       },
       {
-        "assetFilePath": "assets/portfolio/theSwarm/Swarm 02.jpg",
-        "thumbnailFilePath": "assets/portfolio/theSwarm/thumbnails/thumb-Swarm 02.jpg"
+        "assetFilePath": "assets/portfolio/aWalkThroughMyRoseWindow/RoseWindow02.jpg",
+        "thumbnailFilePath": "assets/portfolio/aWalkThroughMyRoseWindow/thumbnails/thumb-RoseWindow02.jpg"
       },
       {
-        "assetFilePath": "assets/portfolio/theSwarm/Swarm 03.jpg",
-        "thumbnailFilePath": "assets/portfolio/theSwarm/thumbnails/thumb-Swarm 03.jpg"
+        "assetFilePath": "assets/portfolio/aWalkThroughMyRoseWindow/RoseWindow03.jpg",
+        "thumbnailFilePath": "assets/portfolio/aWalkThroughMyRoseWindow/thumbnails/thumb-RoseWindow03.jpg"
       },
       {
-        "assetFilePath": "assets/portfolio/theSwarm/Swarm 04.jpg",
-        "thumbnailFilePath": "assets/portfolio/theSwarm/thumbnails/thumb-Swarm 04.jpg"
+        "assetFilePath": "assets/portfolio/aWalkThroughMyRoseWindow/RoseWindow04.jpg",
+        "thumbnailFilePath": "assets/portfolio/aWalkThroughMyRoseWindow/thumbnails/thumb-RoseWindow04.jpg"
+      },
+      {
+        "assetFilePath": "assets/portfolio/aWalkThroughMyRoseWindow/RoseWindow05.jpg",
+        "thumbnailFilePath": "assets/portfolio/aWalkThroughMyRoseWindow/thumbnails/thumb-RoseWindow05.jpg"
+      },
+      {
+        "assetFilePath": "assets/portfolio/aWalkThroughMyRoseWindow/RoseWindow06.jpg",
+        "thumbnailFilePath": "assets/portfolio/aWalkThroughMyRoseWindow/thumbnails/thumb-RoseWindow06.jpg"
+      },
+      {
+        "assetFilePath": "assets/portfolio/aWalkThroughMyRoseWindow/RoseWindow07.jpg",
+        "thumbnailFilePath": "assets/portfolio/aWalkThroughMyRoseWindow/thumbnails/thumb-RoseWindow07.jpg"
+      },
+      {
+        "assetFilePath": "assets/portfolio/aWalkThroughMyRoseWindow/RoseWindow08.jpg",
+        "thumbnailFilePath": "assets/portfolio/aWalkThroughMyRoseWindow/thumbnails/thumb-RoseWindow08.jpg"
       }
     ],
     "heroImage": {
-      "assetFilePath": "assets/portfolio/theSwarm/Swarm 01.jpg",
-      "thumbnailFilePath": "assets/portfolio/theSwarm/thumbnails/thumb-Swarm 01.jpg"
-    }
-  },
-  "whenTheDishRanAwayWithTheSpoon": {
-    "title": "When the Dish Ran Away with the Spoon",
-    "description": "This piece is an exploration into the dynamics of any close relationship. Sometimes we are the spoon constantly providing nourishment and a tool for care and feeding. Other times you are the dish. Always in service of others creating a safe place for rest (especially for the spoon). It is my hope that with this piece viewers can begin to question when they are the dish or when they are the spoon and recognize the importance of the push and pull of this dynamic. Without it we are all just a swarm of plates and cutlery in constant use, whose only function is to be a part of a whole.",
-    "materials": "Found Glass, Spoon, Glue",
-    "size": "6” x 8” (individually) larger display will vary",
-    "year": "2024",
-    "images": [
-      {
-        "assetFilePath": "assets/portfolio/whenTheDishRanAwayWithTheSpoon/WTDRAWTS 01.jpg",
-        "thumbnailFilePath": "assets/portfolio/whenTheDishRanAwayWithTheSpoon/thumbnails/thumb-WTDRAWTS 01.jpg"
-      },
-      {
-        "assetFilePath": "assets/portfolio/whenTheDishRanAwayWithTheSpoon/WTDRAWTS 02.jpg",
-        "thumbnailFilePath": "assets/portfolio/whenTheDishRanAwayWithTheSpoon/thumbnails/thumb-WTDRAWTS 02.jpg"
-      },
-      {
-        "assetFilePath": "assets/portfolio/whenTheDishRanAwayWithTheSpoon/WTDRAWTS 03.jpg",
-        "thumbnailFilePath": "assets/portfolio/whenTheDishRanAwayWithTheSpoon/thumbnails/thumb-WTDRAWTS 03.jpg"
-      },
-      {
-        "assetFilePath": "assets/portfolio/whenTheDishRanAwayWithTheSpoon/WTDRAWTS 04.jpg",
-        "thumbnailFilePath": "assets/portfolio/whenTheDishRanAwayWithTheSpoon/thumbnails/thumb-WTDRAWTS 04.jpg"
-      },
-      {
-        "assetFilePath": "assets/portfolio/whenTheDishRanAwayWithTheSpoon/WTDRAWTS 05.jpg",
-        "thumbnailFilePath": "assets/portfolio/whenTheDishRanAwayWithTheSpoon/thumbnails/thumb-WTDRAWTS 05.jpg"
-      },
-      {
-        "assetFilePath": "assets/portfolio/whenTheDishRanAwayWithTheSpoon/WTDRAWTS 06.jpg",
-        "thumbnailFilePath": "assets/portfolio/whenTheDishRanAwayWithTheSpoon/thumbnails/thumb-WTDRAWTS 06.jpg"
-      },
-      {
-        "assetFilePath": "assets/portfolio/whenTheDishRanAwayWithTheSpoon/WTDRAWTS 07.jpg",
-        "thumbnailFilePath": "assets/portfolio/whenTheDishRanAwayWithTheSpoon/thumbnails/thumb-WTDRAWTS 07.jpg"
-      }
-    ],
-    "heroImage": {
-      "assetFilePath": "assets/portfolio/whenTheDishRanAwayWithTheSpoon/WTDRAWTS 01.jpg",
-      "thumbnailFilePath": "assets/portfolio/whenTheDishRanAwayWithTheSpoon/thumbnails/thumb-WTDRAWTS 01.jpg"
+      "assetFilePath": "assets/portfolio/aWalkThroughMyRoseWindow/RoseWindow01.jpg",
+      "thumbnailFilePath": "assets/portfolio/aWalkThroughMyRoseWindow/thumbnails/thumb-RoseWindow01.jpg"
     }
   }
 }

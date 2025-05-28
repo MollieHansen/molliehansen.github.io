@@ -1,6 +1,74 @@
 import { PortfolioSection } from "../../../../shared/models/portfolio-section.enum";
 
 export const PORTFOLIO_METADATA = {
+  [PortfolioSection.EvadingMirror]: {
+    title: 'Evading Mirror',
+    description:
+    `Iridescence is the phenomenon of light interference. What would it be like to create an iridescent mirror? Shards of thin glass layered together create a reflective surface but when there are outside interfering lights it is impossible to see a clear reflection. Our understanding of the world is complex and takes up multiple points of view and perspectives that are constantly changing depending upon the outside forces or light that interferes with our ability to see a full clear reflection. One is able to see the beauty in the change in color and reflection at each angle in pursuit of seeing ourselves and our reflections clearly. There is wonder and beauty in the uncertainty and journey of understanding ourselves in relation to the world around us.`,
+    materials: 'Glass, Found Frame, Glue, Paint, and Steel',
+    size: '71\" x 41\" x 6\"',
+    year: '2025',
+  },
+  [PortfolioSection.WeepingLamp]: {
+    title: 'Weeping Lamp',
+    description:
+    `A lampshade carefully put together using wax holds then shards of pink gold ruby glass resembling scars. When the lamp is on, the bulb melts the wax, and those scars are slowly shed. This piece evokes the melancholy and beauty of healing and change of shedding the scars that were used to help us cope but ultimately dim our inner light. This process is a constant cycle of transmutation within the mind. This piece is an installation video paired with the *Guarding Rug* provides sound for the video that is meant for the viewer to piece together.`,
+    materials: 'Found Rug, Found Table, Found Lamp, Glass, Wax, Incandescent bulb, Paint, and Gold Leaf',
+    year: '2025',
+  },
+  [PortfolioSection.GuardingRug]: {
+    title: 'Guarding Rug',
+    description:
+    `This piece was a multisensory experience. A rug with gold edged fringe frames the destruction that has been swept underneath. Viewers are encouraged to walk across the installation and feel the sensation of broken glass that further breaks apart reminding us all that our problems or scars never go away especially when ignored they are just breaking down further. This piece is meant to pair with the video projection of the *Weeping Lamp* and serves as the sound element of the video. The rug is the remnants of the installation of the *Weeping Lamp* as is indicated by the wax drips on top of and what was left of the lamp underneath the rug.`,
+    materials: 'Found Rug, Glass, Wax, Gold Leaf, Hardboard, Plastic, and Glue',
+    size: '94\" x 59\"',
+    year: '2025',
+  },
+  [PortfolioSection.PortraitWall]: {
+    title: 'Portrait Wall',
+    description:
+    `We attempt to contain memories with photographs. But photographs fail. They cannot fully grasp the moment or memory just as memory itself fails. This piece attempts to recreate a portrait wall where the frames are painted the same color as thew all and fade away to reveal what the glass with all the images are doing. They are in a state of motion or dripping and melting slowly way and distorting the image in the process, just how often or conception of a memory distorts and falls away.`,
+    materials: 'Glass, Wood Frames, Enamel, and Paint',
+    year: '2025',
+  },
+  [PortfolioSection.FamilyRepast]: {
+    title: 'Family Repast',
+    description:
+    `The dinner table is a site for communicating through acts of care that transcends language and cultural barriers. The video is of various hands from two different families coming together to share a meal and become one family through marriage. The transparent glass of the objects from the video placed over it is a means of viewing. The video is not always clear, and the viewer is not always sure what is going on. Except for small moments of clarity that intentionally show that act of this family feeding one another. This is meant to portray the feeling one has of uncertainty and lack of knowledge when there are cultural and language barriers, yet the act of care and food is universal.`,
+    materials: 'Video, iPad, Glass, and Table',
+    year: '2024',
+  },
+  [PortfolioSection.PrimordialCreation]: {
+    title: 'Primordial Creation',
+    description:
+    `We can all be transformed and transported into vessels for use. Constantly acted upon by our surroundings and made into these vessels. To grow and change we must be in battle with ideas in a state of unmaking and remaking. I want to take you to that place between making and unmaking. After and Before. Shinning iridescence of the primordial essence of what things truly are seeps through and transports you to that state.`,
+    materials: 'Glass and Vinyl',
+    year: '2024',
+  },
+  [PortfolioSection.TheWindow]: {
+    title: 'The Window',
+    description:
+    `This piece explores how one can never truly understand themselves. Using iridescence (the physical manifestation of light interference) as a metaphor for the various interferences in life that make it impossible to see your own reflection clearly. From afar the decadently decorated frame is reminiscent of a mirror, but once one gets up close, you realize that the glass has a mark representative of traditional window making. This object is meant to act as the portal into the mind we cannot see or reach.`,
+    materials: 'Vinyl, Wood, and Glass',
+    size: '15\" x 12\"',
+    year: '2024',
+  },
+  [PortfolioSection.WhenTheDishRanAwayWithTheSpoon]: {
+    title: 'When the Dish Ran Away with the Spoon',
+    description:
+    `This piece is an exploration into the dynamics of any close relationship. Sometimes we are the spoon constantly providing nourishment and a tool for care and feeding. Other times you are the dish. Always in service of others creating a safe place for rest (especially for the spoon). It is my hope that with this piece viewers can begin to question when they are the dish or when they are the spoon and recognize the importance of the push and pull of this dynamic. Without it we are all just a swarm of plates and cutlery in constant use, whose only function is to be a part of a whole.`,
+    materials: 'Found Glass, Spoon, Glue',
+    size: '6\” x 8\” (individually) larger display will vary',
+    year: '2024'
+  },
+  [PortfolioSection.TheSwarm]: {
+    title: 'The Swarm',
+    description:
+    `Aren\'t we all just parts of a bigger whole? Tools to provide nourishment that fuels the swarm. Can you see yourself in the others? We are all nothing more than the insignificant spoon providing nourishment to the hive of society. You can try to dress in frill or shine a little brighter. In the end the reflection is still always the same.`,
+    materials: 'Spoons, Epoxy, Silicone',
+    size: '10\" x 20\"',
+    year: '2024',
+  },
   [PortfolioSection.InvisibleWallpaper]: {
     title: 'Invisible Wallpaper',
     description:
@@ -28,20 +96,11 @@ export const PORTFOLIO_METADATA = {
     size: '13\" x 13\" x 10\"',
     year: '2023',
   },
-  [PortfolioSection.TheSwarm]: {
-    title: 'The Swarm',
+  [PortfolioSection.AWalkThroughMyRoseWindow]: {
+    title: 'A Walk Through My Rose Window',
     description:
-    `Aren\'t we all just parts of a bigger whole? Tools to provide nourishment that fuels the swarm. Can you see yourself in the others? We are all nothing more than the insignificant spoon providing nourishment to the hive of society. You can try to dress in frill or shine a little brighter. In the end the reflection is still always the same.`,
-    materials: 'Spoons, Epoxy, Silicone',
-    size: '10\" x 20\"',
-    year: '2024',
-  },
-  [PortfolioSection.WhenTheDishRanAwayWithTheSpoon]: {
-    title: 'When the Dish Ran Away with the Spoon',
-    description:
-    `This piece is an exploration into the dynamics of any close relationship. Sometimes we are the spoon constantly providing nourishment and a tool for care and feeding. Other times you are the dish. Always in service of others creating a safe place for rest (especially for the spoon). It is my hope that with this piece viewers can begin to question when they are the dish or when they are the spoon and recognize the importance of the push and pull of this dynamic. Without it we are all just a swarm of plates and cutlery in constant use, whose only function is to be a part of a whole.`,
-    materials: 'Found Glass, Spoon, Glue',
-    size: '6\” x 8\” (individually) larger display will vary',
-    year: '2024',
+    `This piece is meant to draw comparison to the use of light in spaces and how it can reflect the people who use it. It is meant to draw attention to the differing aspects of light in a sacred space and not directly decide which is better, but rather propose a new way of acknowledging light in a space. The piece references a rose window through its circular shape, the placement of the glass, and use of light. It differs because it is on the floor and constantly changing. It is accessible to any viewer in the same way that lighting a candle in a church can be. It allows viewers to be immersed within the piece that fills the space instead of a rose window that reveals light from above. It was installed in a space where viewers could walk through the installation and light candles themselves.`,
+    materials: 'Blown Stressed Glass, Candle, Fire, Liquid Gold Leaf',
+    year: '2023',
   }
 } as const;
