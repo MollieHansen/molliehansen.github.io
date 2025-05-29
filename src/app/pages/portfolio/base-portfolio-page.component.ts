@@ -1,10 +1,12 @@
 import { Component, HostListener, Input } from '@angular/core';
 import { RouterModule } from '@angular/router';
+import { NgTemplateOutlet } from '@angular/common';
 import { ProjectImage } from './data/project-image.model';
+import { ProjectVideo } from './data/project-video.model';
 
 @Component({
   selector: 'app-base-portfolio-page',
-  imports: [RouterModule],
+  imports: [RouterModule, NgTemplateOutlet],
   templateUrl: './base-portfolio-page.component.html',
   styleUrl: './base-portfolio-page.component.css'
 })
@@ -14,6 +16,8 @@ export class BasePortfolioPageComponent {
   @Input() year: string = '';
   @Input() materials: string = '';
   @Input() images: ProjectImage[] = [];
+  @Input() videos: ProjectVideo[] = [];
+  @Input() videoFirst: boolean = false;
 
   lightboxImage: ProjectImage | null = null;
 

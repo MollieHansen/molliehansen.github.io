@@ -1,5 +1,6 @@
 import { PortfolioSection } from '../../../../shared/models/portfolio-section.enum';
 import { ProjectImage } from './project-image.model';
+import { ProjectVideo } from './project-video.model';
 
 export interface PortfolioSectionContent {
   title: string
@@ -8,7 +9,9 @@ export interface PortfolioSectionContent {
   size?: string
   year: string
   images: ProjectImage[]
-  heroImage: ProjectImage
+  heroImage: ProjectImage,
+  videos: ProjectVideo[],
+  videoFirst?: boolean
 }
 
 export type PORTFOLIO_SECTIONS = Record<PortfolioSection, PortfolioSectionContent>

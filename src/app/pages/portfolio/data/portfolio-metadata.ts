@@ -15,6 +15,7 @@ export const PORTFOLIO_METADATA = {
     `A lampshade carefully put together using wax holds then shards of pink gold ruby glass resembling scars. When the lamp is on, the bulb melts the wax, and those scars are slowly shed. This piece evokes the melancholy and beauty of healing and change of shedding the scars that were used to help us cope but ultimately dim our inner light. This process is a constant cycle of transmutation within the mind. This piece is an installation video paired with the *Guarding Rug* provides sound for the video that is meant for the viewer to piece together.`,
     materials: 'Found Rug, Found Table, Found Lamp, Glass, Wax, Incandescent bulb, Paint, and Gold Leaf',
     year: '2025',
+    videoFirst: true,
   },
   [PortfolioSection.GuardingRug]: {
     title: 'Guarding Rug',
@@ -102,5 +103,6 @@ export const PORTFOLIO_METADATA = {
     `This piece is meant to draw comparison to the use of light in spaces and how it can reflect the people who use it. It is meant to draw attention to the differing aspects of light in a sacred space and not directly decide which is better, but rather propose a new way of acknowledging light in a space. The piece references a rose window through its circular shape, the placement of the glass, and use of light. It differs because it is on the floor and constantly changing. It is accessible to any viewer in the same way that lighting a candle in a church can be. It allows viewers to be immersed within the piece that fills the space instead of a rose window that reveals light from above. It was installed in a space where viewers could walk through the installation and light candles themselves.`,
     materials: 'Blown Stressed Glass, Candle, Fire, Liquid Gold Leaf',
     year: '2023',
+    videoFirst: true,
   }
 } as const;

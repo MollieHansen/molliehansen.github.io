@@ -7,7 +7,8 @@
     "build": "ng build",
     "watch": "ng build --watch --configuration development",
     "test": "ng test",
-    "generate:portfolio": "ts-node --project tsconfig.scripts.json scripts/generate-portfolio-assets-json.ts"
+    "generate:portfolio": "ts-node --project tsconfig.scripts.json scripts/generate-portfolio-assets-json.ts",
+    "clean:thumbnails": "ts-node --project tsconfig.scripts.json scripts/clean-thumbnails.ts"
   },
   "private": true,
   "dependencies": {

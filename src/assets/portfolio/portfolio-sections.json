@@ -8,68 +8,74 @@
     "images": [
       {
         "assetFilePath": "assets/portfolio/evadingMirror/EvadingMirror01.jpeg",
-        "thumbnailFilePath": "assets/portfolio/evadingMirror/thumbnails/thumb-EvadingMirror01.jpeg"
+        "thumbnailFilePath": "assets/portfolio/evadingMirror/thumbnails/thumb-EvadingMirror01.jpg"
       },
       {
         "assetFilePath": "assets/portfolio/evadingMirror/EvadingMirror02.jpeg",
-        "thumbnailFilePath": "assets/portfolio/evadingMirror/thumbnails/thumb-EvadingMirror02.jpeg"
+        "thumbnailFilePath": "assets/portfolio/evadingMirror/thumbnails/thumb-EvadingMirror02.jpg"
       },
       {
         "assetFilePath": "assets/portfolio/evadingMirror/EvadingMirror03.jpeg",
-        "thumbnailFilePath": "assets/portfolio/evadingMirror/thumbnails/thumb-EvadingMirror03.jpeg"
+        "thumbnailFilePath": "assets/portfolio/evadingMirror/thumbnails/thumb-EvadingMirror03.jpg"
       },
       {
         "assetFilePath": "assets/portfolio/evadingMirror/EvadingMirror04.jpeg",
-        "thumbnailFilePath": "assets/portfolio/evadingMirror/thumbnails/thumb-EvadingMirror04.jpeg"
+        "thumbnailFilePath": "assets/portfolio/evadingMirror/thumbnails/thumb-EvadingMirror04.jpg"
       },
       {
         "assetFilePath": "assets/portfolio/evadingMirror/EvadingMirror05.jpeg",
-        "thumbnailFilePath": "assets/portfolio/evadingMirror/thumbnails/thumb-EvadingMirror05.jpeg"
+        "thumbnailFilePath": "assets/portfolio/evadingMirror/thumbnails/thumb-EvadingMirror05.jpg"
       },
       {
         "assetFilePath": "assets/portfolio/evadingMirror/EvadingMirror06.jpeg",
-        "thumbnailFilePath": "assets/portfolio/evadingMirror/thumbnails/thumb-EvadingMirror06.jpeg"
+        "thumbnailFilePath": "assets/portfolio/evadingMirror/thumbnails/thumb-EvadingMirror06.jpg"
       },
       {
         "assetFilePath": "assets/portfolio/evadingMirror/EvadingMirror07.jpeg",
-        "thumbnailFilePath": "assets/portfolio/evadingMirror/thumbnails/thumb-EvadingMirror07.jpeg"
+        "thumbnailFilePath": "assets/portfolio/evadingMirror/thumbnails/thumb-EvadingMirror07.jpg"
       },
       {
         "assetFilePath": "assets/portfolio/evadingMirror/EvadingMirror08.jpeg",
-        "thumbnailFilePath": "assets/portfolio/evadingMirror/thumbnails/thumb-EvadingMirror08.jpeg"
+        "thumbnailFilePath": "assets/portfolio/evadingMirror/thumbnails/thumb-EvadingMirror08.jpg"
       },
       {
         "assetFilePath": "assets/portfolio/evadingMirror/EvadingMirror09.jpeg",
-        "thumbnailFilePath": "assets/portfolio/evadingMirror/thumbnails/thumb-EvadingMirror09.jpeg"
+        "thumbnailFilePath": "assets/portfolio/evadingMirror/thumbnails/thumb-EvadingMirror09.jpg"
       },
       {
         "assetFilePath": "assets/portfolio/evadingMirror/EvadingMirror10.jpeg",
-        "thumbnailFilePath": "assets/portfolio/evadingMirror/thumbnails/thumb-EvadingMirror10.jpeg"
+        "thumbnailFilePath": "assets/portfolio/evadingMirror/thumbnails/thumb-EvadingMirror10.jpg"
       },
       {
         "assetFilePath": "assets/portfolio/evadingMirror/EvadingMirror11.jpeg",
-        "thumbnailFilePath": "assets/portfolio/evadingMirror/thumbnails/thumb-EvadingMirror11.jpeg"
+        "thumbnailFilePath": "assets/portfolio/evadingMirror/thumbnails/thumb-EvadingMirror11.jpg"
       },
       {
         "assetFilePath": "assets/portfolio/evadingMirror/EvadingMirror12.jpeg",
-        "thumbnailFilePath": "assets/portfolio/evadingMirror/thumbnails/thumb-EvadingMirror12.jpeg"
+        "thumbnailFilePath": "assets/portfolio/evadingMirror/thumbnails/thumb-EvadingMirror12.jpg"
       },
       {
         "assetFilePath": "assets/portfolio/evadingMirror/EvadingMirror13.jpeg",
-        "thumbnailFilePath": "assets/portfolio/evadingMirror/thumbnails/thumb-EvadingMirror13.jpeg"
+        "thumbnailFilePath": "assets/portfolio/evadingMirror/thumbnails/thumb-EvadingMirror13.jpg"
       },
       {
         "assetFilePath": "assets/portfolio/evadingMirror/EvadingMirror14.jpeg",
-        "thumbnailFilePath": "assets/portfolio/evadingMirror/thumbnails/thumb-EvadingMirror14.jpeg"
+        "thumbnailFilePath": "assets/portfolio/evadingMirror/thumbnails/thumb-EvadingMirror14.jpg"
       },
       {
         "assetFilePath": "assets/portfolio/evadingMirror/EvadingMirror15.jpeg",
-        "thumbnailFilePath": "assets/portfolio/evadingMirror/thumbnails/thumb-EvadingMirror15.jpeg"
+        "thumbnailFilePath": "assets/portfolio/evadingMirror/thumbnails/thumb-EvadingMirror15.jpg"
+      }
+    ],
+    "videos": [
+      {
+        "assetFilePath": "assets/portfolio/evadingMirror/VideoEvadingMirror01.mp4",
+        "thumbnailFilePath": "assets/portfolio/evadingMirror/thumbnails/thumb-VideoEvadingMirror01.jpg"
       }
     ],
     "heroImage": {
       "assetFilePath": "assets/portfolio/evadingMirror/EvadingMirror01.jpeg",
-      "thumbnailFilePath": "assets/portfolio/evadingMirror/thumbnails/thumb-EvadingMirror01.jpeg"
+      "thumbnailFilePath": "assets/portfolio/evadingMirror/thumbnails/thumb-EvadingMirror01.jpg"
     }
   },
   "weepingLamp": {
@@ -77,23 +83,30 @@
     "description": "A lampshade carefully put together using wax holds then shards of pink gold ruby glass resembling scars. When the lamp is on, the bulb melts the wax, and those scars are slowly shed. This piece evokes the melancholy and beauty of healing and change of shedding the scars that were used to help us cope but ultimately dim our inner light. This process is a constant cycle of transmutation within the mind. This piece is an installation video paired with the *Guarding Rug* provides sound for the video that is meant for the viewer to piece together.",
     "materials": "Found Rug, Found Table, Found Lamp, Glass, Wax, Incandescent bulb, Paint, and Gold Leaf",
     "year": "2025",
+    "videoFirst": true,
     "images": [
       {
         "assetFilePath": "assets/portfolio/weepingLamp/WeepingLamp01.jpeg",
-        "thumbnailFilePath": "assets/portfolio/weepingLamp/thumbnails/thumb-WeepingLamp01.jpeg"
+        "thumbnailFilePath": "assets/portfolio/weepingLamp/thumbnails/thumb-WeepingLamp01.jpg"
       },
       {
         "assetFilePath": "assets/portfolio/weepingLamp/WeepingLamp02.jpeg",
-        "thumbnailFilePath": "assets/portfolio/weepingLamp/thumbnails/thumb-WeepingLamp02.jpeg"
+        "thumbnailFilePath": "assets/portfolio/weepingLamp/thumbnails/thumb-WeepingLamp02.jpg"
       },
       {
         "assetFilePath": "assets/portfolio/weepingLamp/WeepingLamp03.jpeg",
-        "thumbnailFilePath": "assets/portfolio/weepingLamp/thumbnails/thumb-WeepingLamp03.jpeg"
+        "thumbnailFilePath": "assets/portfolio/weepingLamp/thumbnails/thumb-WeepingLamp03.jpg"
+      }
+    ],
+    "videos": [
+      {
+        "assetFilePath": "assets/portfolio/weepingLamp/VideoWeepingLamo01.mp4",
+        "thumbnailFilePath": "assets/portfolio/weepingLamp/thumbnails/thumb-VideoWeepingLamo01.jpg"
       }
     ],
     "heroImage": {
       "assetFilePath": "assets/portfolio/weepingLamp/WeepingLamp01.jpeg",
-      "thumbnailFilePath": "assets/portfolio/weepingLamp/thumbnails/thumb-WeepingLamp01.jpeg"
+      "thumbnailFilePath": "assets/portfolio/weepingLamp/thumbnails/thumb-WeepingLamp01.jpg"
     }
   },
   "guardingRug": {
@@ -104,17 +117,27 @@
     "year": "2025",
     "images": [
       {
-        "assetFilePath": "assets/portfolio/guardingRug/GuardingRug02.jpeg",
-        "thumbnailFilePath": "assets/portfolio/guardingRug/thumbnails/thumb-GuardingRug02.jpeg"
+        "assetFilePath": "assets/portfolio/guardingRug/GuardingRug01.jpeg",
+        "thumbnailFilePath": "assets/portfolio/guardingRug/thumbnails/thumb-GuardingRug01.jpg"
       },
       {
-        "assetFilePath": "assets/portfolio/guardingRug/GuardingRug03.jpeg",
-        "thumbnailFilePath": "assets/portfolio/guardingRug/thumbnails/thumb-GuardingRug03.jpeg"
+        "assetFilePath": "assets/portfolio/guardingRug/GuardingRug02.jpeg",
+        "thumbnailFilePath": "assets/portfolio/guardingRug/thumbnails/thumb-GuardingRug02.jpg"
+      }
+    ],
+    "videos": [
+      {
+        "assetFilePath": "assets/portfolio/guardingRug/VideoGuardingRug01.mp4",
+        "thumbnailFilePath": "assets/portfolio/guardingRug/thumbnails/thumb-VideoGuardingRug01.jpg"
+      },
+      {
+        "assetFilePath": "assets/portfolio/guardingRug/VideoGuardingRug02.mp4",
+        "thumbnailFilePath": "assets/portfolio/guardingRug/thumbnails/thumb-VideoGuardingRug02.jpg"
       }
     ],
     "heroImage": {
-      "assetFilePath": "assets/portfolio/guardingRug/GuardingRug02.jpeg",
-      "thumbnailFilePath": "assets/portfolio/guardingRug/thumbnails/thumb-GuardingRug02.jpeg"
+      "assetFilePath": "assets/portfolio/guardingRug/GuardingRug01.jpeg",
+      "thumbnailFilePath": "assets/portfolio/guardingRug/thumbnails/thumb-GuardingRug01.jpg"
     }
   },
   "portraitWall": {
@@ -125,28 +148,34 @@
     "images": [
       {
         "assetFilePath": "assets/portfolio/portraitWall/PortraitWall01.jpeg",
-        "thumbnailFilePath": "assets/portfolio/portraitWall/thumbnails/thumb-PortraitWall01.jpeg"
+        "thumbnailFilePath": "assets/portfolio/portraitWall/thumbnails/thumb-PortraitWall01.jpg"
       },
       {
         "assetFilePath": "assets/portfolio/portraitWall/PortraitWall02.jpeg",
-        "thumbnailFilePath": "assets/portfolio/portraitWall/thumbnails/thumb-PortraitWall02.jpeg"
+        "thumbnailFilePath": "assets/portfolio/portraitWall/thumbnails/thumb-PortraitWall02.jpg"
       },
       {
         "assetFilePath": "assets/portfolio/portraitWall/PortraitWall03.jpeg",
-        "thumbnailFilePath": "assets/portfolio/portraitWall/thumbnails/thumb-PortraitWall03.jpeg"
+        "thumbnailFilePath": "assets/portfolio/portraitWall/thumbnails/thumb-PortraitWall03.jpg"
       },
       {
         "assetFilePath": "assets/portfolio/portraitWall/PortraitWall04.jpeg",
-        "thumbnailFilePath": "assets/portfolio/portraitWall/thumbnails/thumb-PortraitWall04.jpeg"
+        "thumbnailFilePath": "assets/portfolio/portraitWall/thumbnails/thumb-PortraitWall04.jpg"
       },
       {
         "assetFilePath": "assets/portfolio/portraitWall/PortraitWall05.jpeg",
-        "thumbnailFilePath": "assets/portfolio/portraitWall/thumbnails/thumb-PortraitWall05.jpeg"
+        "thumbnailFilePath": "assets/portfolio/portraitWall/thumbnails/thumb-PortraitWall05.jpg"
+      }
+    ],
+    "videos": [
+      {
+        "assetFilePath": "assets/portfolio/portraitWall/VideoPortraitWall01.mp4",
+        "thumbnailFilePath": "assets/portfolio/portraitWall/thumbnails/thumb-VideoPortraitWall01.jpg"
       }
     ],
     "heroImage": {
       "assetFilePath": "assets/portfolio/portraitWall/PortraitWall01.jpeg",
-      "thumbnailFilePath": "assets/portfolio/portraitWall/thumbnails/thumb-PortraitWall01.jpeg"
+      "thumbnailFilePath": "assets/portfolio/portraitWall/thumbnails/thumb-PortraitWall01.jpg"
     }
   },
   "familyRepast": {
@@ -157,32 +186,38 @@
     "images": [
       {
         "assetFilePath": "assets/portfolio/familyRepast/FamilyRepast01.jpeg",
-        "thumbnailFilePath": "assets/portfolio/familyRepast/thumbnails/thumb-FamilyRepast01.jpeg"
+        "thumbnailFilePath": "assets/portfolio/familyRepast/thumbnails/thumb-FamilyRepast01.jpg"
       },
       {
         "assetFilePath": "assets/portfolio/familyRepast/FamilyRepast02.jpeg",
-        "thumbnailFilePath": "assets/portfolio/familyRepast/thumbnails/thumb-FamilyRepast02.jpeg"
+        "thumbnailFilePath": "assets/portfolio/familyRepast/thumbnails/thumb-FamilyRepast02.jpg"
       },
       {
         "assetFilePath": "assets/portfolio/familyRepast/FamilyRepast03.jpeg",
-        "thumbnailFilePath": "assets/portfolio/familyRepast/thumbnails/thumb-FamilyRepast03.jpeg"
+        "thumbnailFilePath": "assets/portfolio/familyRepast/thumbnails/thumb-FamilyRepast03.jpg"
       },
       {
         "assetFilePath": "assets/portfolio/familyRepast/FamilyRepast04.jpeg",
-        "thumbnailFilePath": "assets/portfolio/familyRepast/thumbnails/thumb-FamilyRepast04.jpeg"
+        "thumbnailFilePath": "assets/portfolio/familyRepast/thumbnails/thumb-FamilyRepast04.jpg"
       },
       {
         "assetFilePath": "assets/portfolio/familyRepast/FamilyRepast05.jpeg",
-        "thumbnailFilePath": "assets/portfolio/familyRepast/thumbnails/thumb-FamilyRepast05.jpeg"
+        "thumbnailFilePath": "assets/portfolio/familyRepast/thumbnails/thumb-FamilyRepast05.jpg"
       },
       {
         "assetFilePath": "assets/portfolio/familyRepast/FamilyRepast06.jpeg",
-        "thumbnailFilePath": "assets/portfolio/familyRepast/thumbnails/thumb-FamilyRepast06.jpeg"
+        "thumbnailFilePath": "assets/portfolio/familyRepast/thumbnails/thumb-FamilyRepast06.jpg"
+      }
+    ],
+    "videos": [
+      {
+        "assetFilePath": "assets/portfolio/familyRepast/VideoFamilyRepast01.mp4",
+        "thumbnailFilePath": "assets/portfolio/familyRepast/thumbnails/thumb-VideoFamilyRepast01.jpg"
       }
     ],
     "heroImage": {
       "assetFilePath": "assets/portfolio/familyRepast/FamilyRepast01.jpeg",
-      "thumbnailFilePath": "assets/portfolio/familyRepast/thumbnails/thumb-FamilyRepast01.jpeg"
+      "thumbnailFilePath": "assets/portfolio/familyRepast/thumbnails/thumb-FamilyRepast01.jpg"
     }
   },
   "primordialCreation": {
@@ -256,6 +291,7 @@
         "thumbnailFilePath": "assets/portfolio/primordialCreation/thumbnails/thumb-PrimordialCreation16.jpg"
       }
     ],
+    "videos": [],
     "heroImage": {
       "assetFilePath": "assets/portfolio/primordialCreation/PrimordialCreation01.jpg",
       "thumbnailFilePath": "assets/portfolio/primordialCreation/thumbnails/thumb-PrimordialCreation01.jpg"
@@ -270,16 +306,26 @@
     "images": [
       {
         "assetFilePath": "assets/portfolio/theWindow/TheWindow01.jpeg",
-        "thumbnailFilePath": "assets/portfolio/theWindow/thumbnails/thumb-TheWindow01.jpeg"
+        "thumbnailFilePath": "assets/portfolio/theWindow/thumbnails/thumb-TheWindow01.jpg"
       },
       {
         "assetFilePath": "assets/portfolio/theWindow/TheWindow02.jpeg",
-        "thumbnailFilePath": "assets/portfolio/theWindow/thumbnails/thumb-TheWindow02.jpeg"
+        "thumbnailFilePath": "assets/portfolio/theWindow/thumbnails/thumb-TheWindow02.jpg"
+      }
+    ],
+    "videos": [
+      {
+        "assetFilePath": "assets/portfolio/theWindow/VideoTheWindow01.mp4",
+        "thumbnailFilePath": "assets/portfolio/theWindow/thumbnails/thumb-VideoTheWindow01.jpg"
+      },
+      {
+        "assetFilePath": "assets/portfolio/theWindow/VideoTheWindow02.mp4",
+        "thumbnailFilePath": "assets/portfolio/theWindow/thumbnails/thumb-VideoTheWindow02.jpg"
       }
     ],
     "heroImage": {
       "assetFilePath": "assets/portfolio/theWindow/TheWindow01.jpeg",
-      "thumbnailFilePath": "assets/portfolio/theWindow/thumbnails/thumb-TheWindow01.jpeg"
+      "thumbnailFilePath": "assets/portfolio/theWindow/thumbnails/thumb-TheWindow01.jpg"
     }
   },
   "whenTheDishRanAwayWithTheSpoon": {
@@ -318,6 +364,7 @@
         "thumbnailFilePath": "assets/portfolio/whenTheDishRanAwayWithTheSpoon/thumbnails/thumb-WTDRAWTS 07.jpg"
       }
     ],
+    "videos": [],
     "heroImage": {
       "assetFilePath": "assets/portfolio/whenTheDishRanAwayWithTheSpoon/WTDRAWTS 01.jpg",
       "thumbnailFilePath": "assets/portfolio/whenTheDishRanAwayWithTheSpoon/thumbnails/thumb-WTDRAWTS 01.jpg"
@@ -347,6 +394,7 @@
         "thumbnailFilePath": "assets/portfolio/theSwarm/thumbnails/thumb-Swarm 04.jpg"
       }
     ],
+    "videos": [],
     "heroImage": {
       "assetFilePath": "assets/portfolio/theSwarm/Swarm 01.jpg",
       "thumbnailFilePath": "assets/portfolio/theSwarm/thumbnails/thumb-Swarm 01.jpg"
@@ -391,6 +439,7 @@
         "thumbnailFilePath": "assets/portfolio/invisibleWallpaper/thumbnails/thumb-Invisible Wallpaper 08.jpg"
       }
     ],
+    "videos": [],
     "heroImage": {
       "assetFilePath": "assets/portfolio/invisibleWallpaper/Invisible Wallpaper 01.jpg",
       "thumbnailFilePath": "assets/portfolio/invisibleWallpaper/thumbnails/thumb-Invisible Wallpaper 01.jpg"
@@ -464,6 +513,7 @@
         "thumbnailFilePath": "assets/portfolio/portraitDrip/thumbnails/thumb-Portrait Drips 17.jpg"
       }
     ],
+    "videos": [],
     "heroImage": {
       "assetFilePath": "assets/portfolio/portraitDrip/Portrait Drip 01.jpg",
       "thumbnailFilePath": "assets/portfolio/portraitDrip/thumbnails/thumb-Portrait Drip 01.jpg"
@@ -521,6 +571,7 @@
         "thumbnailFilePath": "assets/portfolio/saltedBlooms/thumbnails/thumb-Salted Blooms 11.jpg"
       }
     ],
+    "videos": [],
     "heroImage": {
       "assetFilePath": "assets/portfolio/saltedBlooms/Salted Blooms 01.jpg",
       "thumbnailFilePath": "assets/portfolio/saltedBlooms/thumbnails/thumb-Salted Blooms 01.jpg"
@@ -531,6 +582,7 @@
     "description": "This piece is meant to draw comparison to the use of light in spaces and how it can reflect the people who use it. It is meant to draw attention to the differing aspects of light in a sacred space and not directly decide which is better, but rather propose a new way of acknowledging light in a space. The piece references a rose window through its circular shape, the placement of the glass, and use of light. It differs because it is on the floor and constantly changing. It is accessible to any viewer in the same way that lighting a candle in a church can be. It allows viewers to be immersed within the piece that fills the space instead of a rose window that reveals light from above. It was installed in a space where viewers could walk through the installation and light candles themselves.",
     "materials": "Blown Stressed Glass, Candle, Fire, Liquid Gold Leaf",
     "year": "2023",
+    "videoFirst": true,
     "images": [
       {
         "assetFilePath": "assets/portfolio/aWalkThroughMyRoseWindow/RoseWindow01.jpg",
@@ -563,6 +615,12 @@
       {
         "assetFilePath": "assets/portfolio/aWalkThroughMyRoseWindow/RoseWindow08.jpg",
         "thumbnailFilePath": "assets/portfolio/aWalkThroughMyRoseWindow/thumbnails/thumb-RoseWindow08.jpg"
+      }
+    ],
+    "videos": [
+      {
+        "assetFilePath": "assets/portfolio/aWalkThroughMyRoseWindow/VideoRoseWindow01.mp4",
+        "thumbnailFilePath": "assets/portfolio/aWalkThroughMyRoseWindow/thumbnails/thumb-VideoRoseWindow01.jpg"
       }
     ],
     "heroImage": {

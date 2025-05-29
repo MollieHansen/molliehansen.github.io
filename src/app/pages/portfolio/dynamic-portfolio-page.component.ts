@@ -18,6 +18,8 @@ import { CommonModule } from '@angular/common';
         [year]="section.year"
         [materials]="section.materials"
         [images]="section.images"
+        [videos]="section.videos"
+        [videoFirst]="section.videoFirst ?? false"
       />
     }
     @if (!section) {
