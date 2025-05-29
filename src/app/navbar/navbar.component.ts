@@ -14,7 +14,8 @@ export class NavbarComponent {
 
   navLinks = [
     { path: '/portfolio', label: 'Portfolio' },
-    { path: '/about', label: 'Statement + Bio' },
+    { path: '/about', label: 'Bio' },
+    { path: '/artistStatement', label: 'Artist Statement' },
     { path: '/resume', label: 'Resume' },
     { path: '/contact', label: 'Contact' },
   ];

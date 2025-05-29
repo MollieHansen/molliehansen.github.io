@@ -5,10 +5,12 @@ import { ResumeComponent } from './pages/resume/resume.component';
 import { ContactComponent } from './pages/contact/contact.component';
 import { PortfolioComponent } from './pages/portfolio/portfolio.component';
 import { DynamicPortfolioPageComponent } from './pages/portfolio/dynamic-portfolio-page.component';
+import { ArtistStatementComponent } from './artist-statement/artist-statement.component';
 
 export const routes: Routes = [
   { path: '', component: HomeComponent, data: { animation: 'Home' }},
   { path: 'about', component: AboutComponent, data: { animation: 'About' } },
+  { path: 'artistStatement', component: ArtistStatementComponent, data: { animation: 'ArtistStatement' } },
   { path: 'resume', component: ResumeComponent, data: { animation: 'Resume' } },
   { path: 'contact', component: ContactComponent, data: { animation: 'Contact' } },
   { 

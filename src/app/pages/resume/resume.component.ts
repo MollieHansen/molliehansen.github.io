@@ -16,8 +16,8 @@ export class ResumeComponent {
       title: 'Education',
       items: [
         {
-          year: '2022 - Present',
-          title: 'MFA Candidate in Glass - Tyler School of Art and Architecture, Temple University',
+          year: '2023 - 2025',
+          title: 'MFA in Glass - Tyler School of Art and Architecture, Temple University',
           details: 'Certitficate in Teaching in Higher Education',
           location: 'Philadelphia, PA'
         },
@@ -39,9 +39,9 @@ export class ResumeComponent {
       title: 'Work Experience',
       items: [
         {
-          year: '2023 - Present',
+          year: '2023 - 2025',
           title: 'Graduate Assistant',
-          details: 'Contemporary Gallery',
+          details: 'Temple Contemporary Gallery',
           location: 'Philadelphia, PA'
         },
         {
@@ -106,8 +106,11 @@ export class ResumeComponent {
     {
       title: 'Exhibitions',
       items: [
+        { year: '', title: '', details: '', location: ''},
+        { year: '2025', title: 'Icebox Projects Space, To Hear To View', details: 'Group Exhibition', location: 'Philadelphia, PA'},
+        { year: '2025', title: 'Temple Contemporary, Aureate', details: 'Solo MFA Thesis Exhibition', location: 'Philadelphia, PA'},
         { year: '2024', title: '10th Annual Glass International Juried Exhibition', details: 'Workhouse Arts Center', location: 'Lorton, VA' },
-        { year: '2024', title: 'Featured work in Publication', details: 'New Glass Review 44, Corning Museum of Glass', location: 'Corning, NY' },
+        { year: '2024', title: 'New Glass Review 44', details: 'Featured work in Publication', location: 'Corning Museum of Glass - Corning, NY' },
         { year: '2024', title: 'Fuzzy Forms Exhibition', details: 'Stella Elkin Gallery', location: 'Philadelphia, PA' },
         { year: '2022', title: 'SRP Legacy Exhibition', details: 'Aegon Gallery', location: 'Danville, KY' },
         { year: '2019', title: 'Let Them Eat Cake group show', details: 'Gordon Art Galleries', location: 'Norfolk, VA' },
@@ -145,7 +148,8 @@ export class ResumeComponent {
     {
       title: 'Honors / Awards',
       items: [
-        { year: '2023 - Present', title: 'Graduate Assistantship', details: 'Temple Contemporary', location: 'Philadelphia, PA' },
+        { year: '2025', title: 'The Glass Program Award of Excellence', details: 'Tyler School of Art and Architecture', location: 'Philadelphia, PA' },
+        { year: '2023 - 2025', title: 'Graduate Assistantship', details: 'Temple Contemporary', location: 'Philadelphia, PA' },
         { year: '2022', title: 'Pilchuck Glass Fellowship', details: '', location: 'Stanwood, WA' },
         { year: '2017', title: 'AACG Scholarship Fund', details: 'Full Scholarship for Blowing and Painting on Glass with David Walters', location: 'Norfolk, VA' },
         { year: '2012 - 2016', title: 'Academic Honors',  details: [
@@ -177,7 +181,7 @@ export class ResumeComponent {
       title: 'Extra Curricular',
       items: [
         {
-          year: '2024 - Present',
+          year: '2024 - 2025',
           title: 'Co-founder',
           details: 'GLOW (Glass Lab of Wonder) at Tyler School of Art and Architecture',
           location: 'Philadelphia, PA'
