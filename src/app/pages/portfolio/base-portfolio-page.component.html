@@ -46,7 +46,7 @@
           @for (video of videos; track video.assetFilePath) {
           <div class="inline-block w-full mb-4 break-inside-avoid">
             <video width="100%" controls [attr.poster]="video.thumbnailFilePath">
-              <source [src]="video.assetFilePath" type="video/mp4" />
+              <source [attr.src]="video.assetFilePath" type="video/mp4" />
               Your browser does not support the video tag.
             </video>
           </div>
